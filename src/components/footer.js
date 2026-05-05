@@ -6,15 +6,18 @@ export function renderFooter() {
 
           <!-- Brand -->
           <div class="md:col-span-1">
-            <div class="flex items-center gap-3 mb-4">
-              <div class="w-8 h-8 bg-lime-400 flex items-center justify-center clip-corner">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M8 1L14 5V11L8 15L2 11V5L8 1Z" fill="#0A2218"/>
-                </svg>
-              </div>
-              <div>
-                <span class="font-display text-xl text-white tracking-wider leading-none block">CARGILL</span>
-                <span class="font-mono text-[9px] text-lime-400 tracking-[0.3em] leading-none">AGLAB</span>
+            <div class="flex flex-col gap-3 mb-4">
+              <img src="https://www.cargill.com/image/1432220384159/cargill-logo-header.png" alt="Cargill" class="h-7 object-contain brightness-0 invert self-start" />
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 bg-lime-400 flex items-center justify-center clip-corner">
+                  <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                    <path d="M8 1L14 5V11L8 15L2 11V5L8 1Z" fill="#0A2218"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="font-display text-lg text-white tracking-wider leading-none block">AGLAB</span>
+                  <span class="font-mono text-[8px] text-lime-400 tracking-[0.3em] leading-none">OPEN DATA</span>
+                </div>
               </div>
             </div>
             <p class="text-gray-500 text-sm leading-relaxed mb-6">

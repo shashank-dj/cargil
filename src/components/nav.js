@@ -4,16 +4,20 @@ export function renderNav() {
       <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
 
         <!-- Logo -->
-        <a href="#/" class="flex items-center gap-3 group">
-          <div class="w-8 h-8 bg-lime-400 flex items-center justify-center clip-corner">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M8 1L14 5V11L8 15L2 11V5L8 1Z" fill="#0A2218"/>
-              <path d="M8 5V11M5 6.5L8 5L11 6.5" stroke="#0A2218" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <div>
-            <span class="font-display text-xl text-white tracking-wider leading-none block">CARGILL</span>
-            <span class="font-mono text-[9px] text-lime-400 tracking-[0.3em] leading-none">AGLAB</span>
+        <a href="#/" class="flex items-center gap-4 group">
+          <img src="https://www.cargill.com/image/1432220384159/cargill-logo-header.png" alt="Cargill" class="h-7 object-contain brightness-0 invert" />
+          <span class="w-px h-8 bg-forest-600"></span>
+          <div class="flex items-center gap-2.5">
+            <div class="w-7 h-7 bg-lime-400 flex items-center justify-center clip-corner">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                <path d="M8 1L14 5V11L8 15L2 11V5L8 1Z" fill="#0A2218"/>
+                <path d="M8 5V11M5 6.5L8 5L11 6.5" stroke="#0A2218" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <span class="font-display text-lg text-white tracking-wider leading-none block">AGLAB</span>
+              <span class="font-mono text-[8px] text-lime-400 tracking-[0.3em] leading-none">OPEN DATA</span>
+            </div>
           </div>
         </a>
 
