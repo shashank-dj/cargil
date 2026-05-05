@@ -186,7 +186,7 @@ export function renderData() {
             placeholder="Search by name, category, segment..."
             class="w-full bg-forest-950 border border-forest-600 text-white px-4 py-3 pr-10 font-mono text-sm focus:outline-none focus:border-lime-400"
           />
-          <span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500">🔍</span>
+          <span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"></span>
         </div>
       </section>
       <!-- Dataset catalog -->
