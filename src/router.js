@@ -5,11 +5,11 @@ import { renderLeaderboard } from './pages/leaderboard.js'
 import { renderCommunity } from './pages/community.js'
 
 const routes = {
-  '/': renderHome,
-  '/challenges': renderChallenges,
-  '/data': renderData,
-  '/leaderboard': renderLeaderboard,
-  '/community': renderCommunity,
+  '/': { render: renderHome },
+  '/challenges': { render: renderChallenges },
+  '/data': { render: renderData, init: async () => { const module = await import('./pages/data.js'); if(module.initData) module.initData(); } },
+  '/leaderboard': { render: renderLeaderboard },
+  '/community': { render: renderCommunity },
 }
 
 export function getRoute() {
@@ -24,20 +24,25 @@ export function navigate(path) {
 export function initRouter(appEl, navEl) {
   const render = () => {
     const path = getRoute()
-    const page = routes[path] || routes['/']
+    const pageObj = routes[path] || routes['/']
+    const pageRender = typeof pageObj === 'function' ? pageObj : (pageObj.render || pageObj)
 
     // Animate out
     appEl.style.opacity = '0'
     appEl.style.transform = 'translateY(10px)'
 
     setTimeout(() => {
-      appEl.innerHTML = page()
+      appEl.innerHTML = pageRender()
       appEl.style.transition = 'opacity 0.3s ease, transform 0.3s ease'
       appEl.style.opacity = '1'
       appEl.style.transform = 'translateY(0)'
 
       // Re-run page scripts
       initPageScripts()
+      
+      if (pageObj.init) {
+        pageObj.init()
+      }
 
       // Update nav active state
       if (navEl) updateNavActive(path)

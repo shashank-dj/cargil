@@ -1,0 +1,7202 @@
+[
+  {
+    "id": "dataset-1",
+    "name": "Swine Production Data 1",
+    "description": "Historical and real-time data covering production metrics for swine operations.",
+    "category": "Production",
+    "segment": "Swine",
+    "records": "2.0M",
+    "updated": "23 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 97
+  },
+  {
+    "id": "dataset-2",
+    "name": "Swine Health Data 2",
+    "description": "Historical and real-time data covering health metrics for swine operations.",
+    "category": "Health",
+    "segment": "Swine",
+    "records": "5.6M",
+    "updated": "7 hours ago",
+    "countries": 3,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 74
+  },
+  {
+    "id": "dataset-3",
+    "name": "Swine Energy Data 3",
+    "description": "Historical and real-time data covering energy metrics for swine operations.",
+    "category": "Energy",
+    "segment": "Swine",
+    "records": "5.3M",
+    "updated": "6 hours ago",
+    "countries": 12,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 82
+  },
+  {
+    "id": "dataset-4",
+    "name": "Dairy Production Data 4",
+    "description": "Historical and real-time data covering production metrics for dairy operations.",
+    "category": "Production",
+    "segment": "Dairy",
+    "records": "5.6M",
+    "updated": "22 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 83
+  },
+  {
+    "id": "dataset-5",
+    "name": "Beef Land Data 5",
+    "description": "Historical and real-time data covering land metrics for beef operations.",
+    "category": "Land",
+    "segment": "Beef",
+    "records": "1.6M",
+    "updated": "7 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 65
+  },
+  {
+    "id": "dataset-6",
+    "name": "Dairy Emissions Data 6",
+    "description": "Historical and real-time data covering emissions metrics for dairy operations.",
+    "category": "Emissions",
+    "segment": "Dairy",
+    "records": "3.5M",
+    "updated": "11 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 85
+  },
+  {
+    "id": "dataset-7",
+    "name": "Aquaculture Feed Data 7",
+    "description": "Historical and real-time data covering feed metrics for aquaculture operations.",
+    "category": "Feed",
+    "segment": "Aquaculture",
+    "records": "1.6M",
+    "updated": "4 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 33
+  },
+  {
+    "id": "dataset-8",
+    "name": "Aquaculture Feed Data 8",
+    "description": "Historical and real-time data covering feed metrics for aquaculture operations.",
+    "category": "Feed",
+    "segment": "Aquaculture",
+    "records": "9.8M",
+    "updated": "3 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 104
+  },
+  {
+    "id": "dataset-9",
+    "name": "Swine Emissions Data 9",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "3.2M",
+    "updated": "12 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 16
+  },
+  {
+    "id": "dataset-10",
+    "name": "Dairy Feed Data 10",
+    "description": "Historical and real-time data covering feed metrics for dairy operations.",
+    "category": "Feed",
+    "segment": "Dairy",
+    "records": "3.0M",
+    "updated": "23 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 13
+  },
+  {
+    "id": "dataset-11",
+    "name": "Aquaculture Land Data 11",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "6.0M",
+    "updated": "12 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 31
+  },
+  {
+    "id": "dataset-12",
+    "name": "Poultry Energy Data 12",
+    "description": "Historical and real-time data covering energy metrics for poultry operations.",
+    "category": "Energy",
+    "segment": "Poultry",
+    "records": "3.4M",
+    "updated": "3 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 20
+  },
+  {
+    "id": "dataset-13",
+    "name": "Beef Land Data 13",
+    "description": "Historical and real-time data covering land metrics for beef operations.",
+    "category": "Land",
+    "segment": "Beef",
+    "records": "2.3M",
+    "updated": "14 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 22
+  },
+  {
+    "id": "dataset-14",
+    "name": "Dairy Water Data 14",
+    "description": "Historical and real-time data covering water metrics for dairy operations.",
+    "category": "Water",
+    "segment": "Dairy",
+    "records": "0.8M",
+    "updated": "15 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 48
+  },
+  {
+    "id": "dataset-15",
+    "name": "Swine Emissions Data 15",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "9.5M",
+    "updated": "2 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 54
+  },
+  {
+    "id": "dataset-16",
+    "name": "Poultry Energy Data 16",
+    "description": "Historical and real-time data covering energy metrics for poultry operations.",
+    "category": "Energy",
+    "segment": "Poultry",
+    "records": "1.4M",
+    "updated": "9 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 21
+  },
+  {
+    "id": "dataset-17",
+    "name": "Beef Emissions Data 17",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "6.1M",
+    "updated": "7 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 61
+  },
+  {
+    "id": "dataset-18",
+    "name": "Dairy Land Data 18",
+    "description": "Historical and real-time data covering land metrics for dairy operations.",
+    "category": "Land",
+    "segment": "Dairy",
+    "records": "5.5M",
+    "updated": "7 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 40
+  },
+  {
+    "id": "dataset-19",
+    "name": "Swine Feed Data 19",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "0.4M",
+    "updated": "16 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 42
+  },
+  {
+    "id": "dataset-20",
+    "name": "Beef Energy Data 20",
+    "description": "Historical and real-time data covering energy metrics for beef operations.",
+    "category": "Energy",
+    "segment": "Beef",
+    "records": "2.5M",
+    "updated": "16 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 66
+  },
+  {
+    "id": "dataset-21",
+    "name": "Beef Emissions Data 21",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "1.2M",
+    "updated": "15 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 92
+  },
+  {
+    "id": "dataset-22",
+    "name": "Poultry Land Data 22",
+    "description": "Historical and real-time data covering land metrics for poultry operations.",
+    "category": "Land",
+    "segment": "Poultry",
+    "records": "2.0M",
+    "updated": "13 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 59
+  },
+  {
+    "id": "dataset-23",
+    "name": "Aquaculture Water Data 23",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "4.0M",
+    "updated": "18 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 39
+  },
+  {
+    "id": "dataset-24",
+    "name": "Swine Health Data 24",
+    "description": "Historical and real-time data covering health metrics for swine operations.",
+    "category": "Health",
+    "segment": "Swine",
+    "records": "2.8M",
+    "updated": "8 hours ago",
+    "countries": 9,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 76
+  },
+  {
+    "id": "dataset-25",
+    "name": "Aquaculture Health Data 25",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "8.4M",
+    "updated": "22 hours ago",
+    "countries": 3,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 57
+  },
+  {
+    "id": "dataset-26",
+    "name": "Swine Energy Data 26",
+    "description": "Historical and real-time data covering energy metrics for swine operations.",
+    "category": "Energy",
+    "segment": "Swine",
+    "records": "4.8M",
+    "updated": "18 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 18
+  },
+  {
+    "id": "dataset-27",
+    "name": "Dairy Water Data 27",
+    "description": "Historical and real-time data covering water metrics for dairy operations.",
+    "category": "Water",
+    "segment": "Dairy",
+    "records": "6.0M",
+    "updated": "0 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 109
+  },
+  {
+    "id": "dataset-28",
+    "name": "Swine Energy Data 28",
+    "description": "Historical and real-time data covering energy metrics for swine operations.",
+    "category": "Energy",
+    "segment": "Swine",
+    "records": "2.8M",
+    "updated": "23 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 31
+  },
+  {
+    "id": "dataset-29",
+    "name": "Swine Feed Data 29",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "7.0M",
+    "updated": "2 hours ago",
+    "countries": 9,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 22
+  },
+  {
+    "id": "dataset-30",
+    "name": "Dairy Feed Data 30",
+    "description": "Historical and real-time data covering feed metrics for dairy operations.",
+    "category": "Feed",
+    "segment": "Dairy",
+    "records": "8.3M",
+    "updated": "7 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 93
+  },
+  {
+    "id": "dataset-31",
+    "name": "Dairy Health Data 31",
+    "description": "Historical and real-time data covering health metrics for dairy operations.",
+    "category": "Health",
+    "segment": "Dairy",
+    "records": "1.0M",
+    "updated": "18 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 100
+  },
+  {
+    "id": "dataset-32",
+    "name": "Beef Emissions Data 32",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "8.5M",
+    "updated": "19 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 74
+  },
+  {
+    "id": "dataset-33",
+    "name": "Aquaculture Emissions Data 33",
+    "description": "Historical and real-time data covering emissions metrics for aquaculture operations.",
+    "category": "Emissions",
+    "segment": "Aquaculture",
+    "records": "3.8M",
+    "updated": "19 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 108
+  },
+  {
+    "id": "dataset-34",
+    "name": "Dairy Production Data 34",
+    "description": "Historical and real-time data covering production metrics for dairy operations.",
+    "category": "Production",
+    "segment": "Dairy",
+    "records": "0.5M",
+    "updated": "15 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 82
+  },
+  {
+    "id": "dataset-35",
+    "name": "Poultry Health Data 35",
+    "description": "Historical and real-time data covering health metrics for poultry operations.",
+    "category": "Health",
+    "segment": "Poultry",
+    "records": "8.7M",
+    "updated": "12 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 109
+  },
+  {
+    "id": "dataset-36",
+    "name": "Beef Production Data 36",
+    "description": "Historical and real-time data covering production metrics for beef operations.",
+    "category": "Production",
+    "segment": "Beef",
+    "records": "1.1M",
+    "updated": "1 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 48
+  },
+  {
+    "id": "dataset-37",
+    "name": "Aquaculture Production Data 37",
+    "description": "Historical and real-time data covering production metrics for aquaculture operations.",
+    "category": "Production",
+    "segment": "Aquaculture",
+    "records": "5.3M",
+    "updated": "7 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 62
+  },
+  {
+    "id": "dataset-38",
+    "name": "Swine Feed Data 38",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "1.8M",
+    "updated": "18 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 106
+  },
+  {
+    "id": "dataset-39",
+    "name": "Dairy Feed Data 39",
+    "description": "Historical and real-time data covering feed metrics for dairy operations.",
+    "category": "Feed",
+    "segment": "Dairy",
+    "records": "7.1M",
+    "updated": "4 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 14
+  },
+  {
+    "id": "dataset-40",
+    "name": "Beef Water Data 40",
+    "description": "Historical and real-time data covering water metrics for beef operations.",
+    "category": "Water",
+    "segment": "Beef",
+    "records": "2.8M",
+    "updated": "19 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 34
+  },
+  {
+    "id": "dataset-41",
+    "name": "Swine Land Data 41",
+    "description": "Historical and real-time data covering land metrics for swine operations.",
+    "category": "Land",
+    "segment": "Swine",
+    "records": "6.5M",
+    "updated": "11 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 49
+  },
+  {
+    "id": "dataset-42",
+    "name": "Poultry Water Data 42",
+    "description": "Historical and real-time data covering water metrics for poultry operations.",
+    "category": "Water",
+    "segment": "Poultry",
+    "records": "6.7M",
+    "updated": "19 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 51
+  },
+  {
+    "id": "dataset-43",
+    "name": "Swine Health Data 43",
+    "description": "Historical and real-time data covering health metrics for swine operations.",
+    "category": "Health",
+    "segment": "Swine",
+    "records": "3.7M",
+    "updated": "9 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 78
+  },
+  {
+    "id": "dataset-44",
+    "name": "Aquaculture Water Data 44",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "6.4M",
+    "updated": "7 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 71
+  },
+  {
+    "id": "dataset-45",
+    "name": "Swine Production Data 45",
+    "description": "Historical and real-time data covering production metrics for swine operations.",
+    "category": "Production",
+    "segment": "Swine",
+    "records": "3.7M",
+    "updated": "22 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 109
+  },
+  {
+    "id": "dataset-46",
+    "name": "Dairy Land Data 46",
+    "description": "Historical and real-time data covering land metrics for dairy operations.",
+    "category": "Land",
+    "segment": "Dairy",
+    "records": "5.5M",
+    "updated": "13 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 61
+  },
+  {
+    "id": "dataset-47",
+    "name": "Aquaculture Water Data 47",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "4.2M",
+    "updated": "16 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 97
+  },
+  {
+    "id": "dataset-48",
+    "name": "Poultry Production Data 48",
+    "description": "Historical and real-time data covering production metrics for poultry operations.",
+    "category": "Production",
+    "segment": "Poultry",
+    "records": "4.5M",
+    "updated": "23 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 97
+  },
+  {
+    "id": "dataset-49",
+    "name": "Aquaculture Water Data 49",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "5.2M",
+    "updated": "19 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 78
+  },
+  {
+    "id": "dataset-50",
+    "name": "Beef Production Data 50",
+    "description": "Historical and real-time data covering production metrics for beef operations.",
+    "category": "Production",
+    "segment": "Beef",
+    "records": "1.8M",
+    "updated": "13 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 72
+  },
+  {
+    "id": "dataset-51",
+    "name": "Dairy Land Data 51",
+    "description": "Historical and real-time data covering land metrics for dairy operations.",
+    "category": "Land",
+    "segment": "Dairy",
+    "records": "0.5M",
+    "updated": "1 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 30
+  },
+  {
+    "id": "dataset-52",
+    "name": "Aquaculture Feed Data 52",
+    "description": "Historical and real-time data covering feed metrics for aquaculture operations.",
+    "category": "Feed",
+    "segment": "Aquaculture",
+    "records": "1.5M",
+    "updated": "17 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 91
+  },
+  {
+    "id": "dataset-53",
+    "name": "Dairy Water Data 53",
+    "description": "Historical and real-time data covering water metrics for dairy operations.",
+    "category": "Water",
+    "segment": "Dairy",
+    "records": "4.1M",
+    "updated": "22 hours ago",
+    "countries": 9,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 92
+  },
+  {
+    "id": "dataset-54",
+    "name": "Beef Emissions Data 54",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "2.4M",
+    "updated": "5 hours ago",
+    "countries": 12,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 44
+  },
+  {
+    "id": "dataset-55",
+    "name": "Aquaculture Energy Data 55",
+    "description": "Historical and real-time data covering energy metrics for aquaculture operations.",
+    "category": "Energy",
+    "segment": "Aquaculture",
+    "records": "2.1M",
+    "updated": "5 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 51
+  },
+  {
+    "id": "dataset-56",
+    "name": "Swine Production Data 56",
+    "description": "Historical and real-time data covering production metrics for swine operations.",
+    "category": "Production",
+    "segment": "Swine",
+    "records": "4.1M",
+    "updated": "0 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 59
+  },
+  {
+    "id": "dataset-57",
+    "name": "Aquaculture Production Data 57",
+    "description": "Historical and real-time data covering production metrics for aquaculture operations.",
+    "category": "Production",
+    "segment": "Aquaculture",
+    "records": "5.2M",
+    "updated": "7 hours ago",
+    "countries": 9,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 88
+  },
+  {
+    "id": "dataset-58",
+    "name": "Dairy Health Data 58",
+    "description": "Historical and real-time data covering health metrics for dairy operations.",
+    "category": "Health",
+    "segment": "Dairy",
+    "records": "7.7M",
+    "updated": "22 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 64
+  },
+  {
+    "id": "dataset-59",
+    "name": "Dairy Health Data 59",
+    "description": "Historical and real-time data covering health metrics for dairy operations.",
+    "category": "Health",
+    "segment": "Dairy",
+    "records": "2.0M",
+    "updated": "4 hours ago",
+    "countries": 9,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 41
+  },
+  {
+    "id": "dataset-60",
+    "name": "Dairy Health Data 60",
+    "description": "Historical and real-time data covering health metrics for dairy operations.",
+    "category": "Health",
+    "segment": "Dairy",
+    "records": "5.6M",
+    "updated": "15 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 89
+  },
+  {
+    "id": "dataset-61",
+    "name": "Swine Feed Data 61",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "2.0M",
+    "updated": "15 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 73
+  },
+  {
+    "id": "dataset-62",
+    "name": "Aquaculture Health Data 62",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "1.7M",
+    "updated": "16 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 45
+  },
+  {
+    "id": "dataset-63",
+    "name": "Swine Water Data 63",
+    "description": "Historical and real-time data covering water metrics for swine operations.",
+    "category": "Water",
+    "segment": "Swine",
+    "records": "3.1M",
+    "updated": "3 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 105
+  },
+  {
+    "id": "dataset-64",
+    "name": "Beef Production Data 64",
+    "description": "Historical and real-time data covering production metrics for beef operations.",
+    "category": "Production",
+    "segment": "Beef",
+    "records": "5.1M",
+    "updated": "2 hours ago",
+    "countries": 12,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 11
+  },
+  {
+    "id": "dataset-65",
+    "name": "Poultry Water Data 65",
+    "description": "Historical and real-time data covering water metrics for poultry operations.",
+    "category": "Water",
+    "segment": "Poultry",
+    "records": "9.3M",
+    "updated": "20 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 11
+  },
+  {
+    "id": "dataset-66",
+    "name": "Dairy Emissions Data 66",
+    "description": "Historical and real-time data covering emissions metrics for dairy operations.",
+    "category": "Emissions",
+    "segment": "Dairy",
+    "records": "7.0M",
+    "updated": "8 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 58
+  },
+  {
+    "id": "dataset-67",
+    "name": "Swine Feed Data 67",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "5.1M",
+    "updated": "2 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 39
+  },
+  {
+    "id": "dataset-68",
+    "name": "Beef Water Data 68",
+    "description": "Historical and real-time data covering water metrics for beef operations.",
+    "category": "Water",
+    "segment": "Beef",
+    "records": "4.1M",
+    "updated": "20 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 25
+  },
+  {
+    "id": "dataset-69",
+    "name": "Poultry Health Data 69",
+    "description": "Historical and real-time data covering health metrics for poultry operations.",
+    "category": "Health",
+    "segment": "Poultry",
+    "records": "0.0M",
+    "updated": "16 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 96
+  },
+  {
+    "id": "dataset-70",
+    "name": "Aquaculture Energy Data 70",
+    "description": "Historical and real-time data covering energy metrics for aquaculture operations.",
+    "category": "Energy",
+    "segment": "Aquaculture",
+    "records": "7.4M",
+    "updated": "10 hours ago",
+    "countries": 9,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 48
+  },
+  {
+    "id": "dataset-71",
+    "name": "Swine Feed Data 71",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "3.3M",
+    "updated": "7 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 93
+  },
+  {
+    "id": "dataset-72",
+    "name": "Poultry Production Data 72",
+    "description": "Historical and real-time data covering production metrics for poultry operations.",
+    "category": "Production",
+    "segment": "Poultry",
+    "records": "1.4M",
+    "updated": "11 hours ago",
+    "countries": 12,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 63
+  },
+  {
+    "id": "dataset-73",
+    "name": "Poultry Water Data 73",
+    "description": "Historical and real-time data covering water metrics for poultry operations.",
+    "category": "Water",
+    "segment": "Poultry",
+    "records": "6.7M",
+    "updated": "20 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 98
+  },
+  {
+    "id": "dataset-74",
+    "name": "Beef Land Data 74",
+    "description": "Historical and real-time data covering land metrics for beef operations.",
+    "category": "Land",
+    "segment": "Beef",
+    "records": "7.7M",
+    "updated": "11 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 48
+  },
+  {
+    "id": "dataset-75",
+    "name": "Swine Emissions Data 75",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "0.4M",
+    "updated": "17 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 103
+  },
+  {
+    "id": "dataset-76",
+    "name": "Swine Emissions Data 76",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "2.3M",
+    "updated": "11 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 97
+  },
+  {
+    "id": "dataset-77",
+    "name": "Beef Health Data 77",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "1.2M",
+    "updated": "8 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 87
+  },
+  {
+    "id": "dataset-78",
+    "name": "Aquaculture Water Data 78",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "8.1M",
+    "updated": "8 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 91
+  },
+  {
+    "id": "dataset-79",
+    "name": "Poultry Water Data 79",
+    "description": "Historical and real-time data covering water metrics for poultry operations.",
+    "category": "Water",
+    "segment": "Poultry",
+    "records": "9.1M",
+    "updated": "7 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 98
+  },
+  {
+    "id": "dataset-80",
+    "name": "Dairy Land Data 80",
+    "description": "Historical and real-time data covering land metrics for dairy operations.",
+    "category": "Land",
+    "segment": "Dairy",
+    "records": "4.4M",
+    "updated": "16 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 95
+  },
+  {
+    "id": "dataset-81",
+    "name": "Dairy Land Data 81",
+    "description": "Historical and real-time data covering land metrics for dairy operations.",
+    "category": "Land",
+    "segment": "Dairy",
+    "records": "8.5M",
+    "updated": "11 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 51
+  },
+  {
+    "id": "dataset-82",
+    "name": "Swine Health Data 82",
+    "description": "Historical and real-time data covering health metrics for swine operations.",
+    "category": "Health",
+    "segment": "Swine",
+    "records": "4.0M",
+    "updated": "10 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 33
+  },
+  {
+    "id": "dataset-83",
+    "name": "Swine Feed Data 83",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "0.2M",
+    "updated": "23 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 71
+  },
+  {
+    "id": "dataset-84",
+    "name": "Beef Health Data 84",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "4.0M",
+    "updated": "3 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 48
+  },
+  {
+    "id": "dataset-85",
+    "name": "Aquaculture Land Data 85",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "3.4M",
+    "updated": "16 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 109
+  },
+  {
+    "id": "dataset-86",
+    "name": "Beef Production Data 86",
+    "description": "Historical and real-time data covering production metrics for beef operations.",
+    "category": "Production",
+    "segment": "Beef",
+    "records": "5.5M",
+    "updated": "5 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 55
+  },
+  {
+    "id": "dataset-87",
+    "name": "Aquaculture Water Data 87",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "5.0M",
+    "updated": "0 hours ago",
+    "countries": 3,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 106
+  },
+  {
+    "id": "dataset-88",
+    "name": "Poultry Land Data 88",
+    "description": "Historical and real-time data covering land metrics for poultry operations.",
+    "category": "Land",
+    "segment": "Poultry",
+    "records": "3.2M",
+    "updated": "1 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 74
+  },
+  {
+    "id": "dataset-89",
+    "name": "Beef Emissions Data 89",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "9.7M",
+    "updated": "7 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 70
+  },
+  {
+    "id": "dataset-90",
+    "name": "Beef Energy Data 90",
+    "description": "Historical and real-time data covering energy metrics for beef operations.",
+    "category": "Energy",
+    "segment": "Beef",
+    "records": "9.1M",
+    "updated": "22 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 28
+  },
+  {
+    "id": "dataset-91",
+    "name": "Aquaculture Water Data 91",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "8.3M",
+    "updated": "16 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 45
+  },
+  {
+    "id": "dataset-92",
+    "name": "Poultry Land Data 92",
+    "description": "Historical and real-time data covering land metrics for poultry operations.",
+    "category": "Land",
+    "segment": "Poultry",
+    "records": "2.0M",
+    "updated": "18 hours ago",
+    "countries": 6,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 101
+  },
+  {
+    "id": "dataset-93",
+    "name": "Dairy Water Data 93",
+    "description": "Historical and real-time data covering water metrics for dairy operations.",
+    "category": "Water",
+    "segment": "Dairy",
+    "records": "6.1M",
+    "updated": "13 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 49
+  },
+  {
+    "id": "dataset-94",
+    "name": "Aquaculture Health Data 94",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "3.4M",
+    "updated": "0 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 23
+  },
+  {
+    "id": "dataset-95",
+    "name": "Swine Feed Data 95",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "3.0M",
+    "updated": "13 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 82
+  },
+  {
+    "id": "dataset-96",
+    "name": "Dairy Health Data 96",
+    "description": "Historical and real-time data covering health metrics for dairy operations.",
+    "category": "Health",
+    "segment": "Dairy",
+    "records": "2.8M",
+    "updated": "11 hours ago",
+    "countries": 3,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 37
+  },
+  {
+    "id": "dataset-97",
+    "name": "Swine Water Data 97",
+    "description": "Historical and real-time data covering water metrics for swine operations.",
+    "category": "Water",
+    "segment": "Swine",
+    "records": "4.0M",
+    "updated": "13 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 61
+  },
+  {
+    "id": "dataset-98",
+    "name": "Swine Land Data 98",
+    "description": "Historical and real-time data covering land metrics for swine operations.",
+    "category": "Land",
+    "segment": "Swine",
+    "records": "8.2M",
+    "updated": "8 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 68
+  },
+  {
+    "id": "dataset-99",
+    "name": "Swine Emissions Data 99",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "0.6M",
+    "updated": "2 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 25
+  },
+  {
+    "id": "dataset-100",
+    "name": "Swine Health Data 100",
+    "description": "Historical and real-time data covering health metrics for swine operations.",
+    "category": "Health",
+    "segment": "Swine",
+    "records": "4.7M",
+    "updated": "8 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 52
+  },
+  {
+    "id": "dataset-101",
+    "name": "Beef Land Data 101",
+    "description": "Historical and real-time data covering land metrics for beef operations.",
+    "category": "Land",
+    "segment": "Beef",
+    "records": "0.2M",
+    "updated": "17 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 36
+  },
+  {
+    "id": "dataset-102",
+    "name": "Poultry Energy Data 102",
+    "description": "Historical and real-time data covering energy metrics for poultry operations.",
+    "category": "Energy",
+    "segment": "Poultry",
+    "records": "7.1M",
+    "updated": "19 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 102
+  },
+  {
+    "id": "dataset-103",
+    "name": "Beef Health Data 103",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "6.3M",
+    "updated": "3 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 99
+  },
+  {
+    "id": "dataset-104",
+    "name": "Poultry Emissions Data 104",
+    "description": "Historical and real-time data covering emissions metrics for poultry operations.",
+    "category": "Emissions",
+    "segment": "Poultry",
+    "records": "1.5M",
+    "updated": "19 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 29
+  },
+  {
+    "id": "dataset-105",
+    "name": "Dairy Feed Data 105",
+    "description": "Historical and real-time data covering feed metrics for dairy operations.",
+    "category": "Feed",
+    "segment": "Dairy",
+    "records": "8.8M",
+    "updated": "4 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 100
+  },
+  {
+    "id": "dataset-106",
+    "name": "Poultry Water Data 106",
+    "description": "Historical and real-time data covering water metrics for poultry operations.",
+    "category": "Water",
+    "segment": "Poultry",
+    "records": "0.0M",
+    "updated": "9 hours ago",
+    "countries": 9,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 31
+  },
+  {
+    "id": "dataset-107",
+    "name": "Swine Emissions Data 107",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "7.6M",
+    "updated": "21 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 39
+  },
+  {
+    "id": "dataset-108",
+    "name": "Swine Production Data 108",
+    "description": "Historical and real-time data covering production metrics for swine operations.",
+    "category": "Production",
+    "segment": "Swine",
+    "records": "3.3M",
+    "updated": "17 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 83
+  },
+  {
+    "id": "dataset-109",
+    "name": "Dairy Production Data 109",
+    "description": "Historical and real-time data covering production metrics for dairy operations.",
+    "category": "Production",
+    "segment": "Dairy",
+    "records": "9.8M",
+    "updated": "1 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 97
+  },
+  {
+    "id": "dataset-110",
+    "name": "Dairy Emissions Data 110",
+    "description": "Historical and real-time data covering emissions metrics for dairy operations.",
+    "category": "Emissions",
+    "segment": "Dairy",
+    "records": "5.4M",
+    "updated": "2 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 67
+  },
+  {
+    "id": "dataset-111",
+    "name": "Swine Water Data 111",
+    "description": "Historical and real-time data covering water metrics for swine operations.",
+    "category": "Water",
+    "segment": "Swine",
+    "records": "3.3M",
+    "updated": "6 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 43
+  },
+  {
+    "id": "dataset-112",
+    "name": "Dairy Energy Data 112",
+    "description": "Historical and real-time data covering energy metrics for dairy operations.",
+    "category": "Energy",
+    "segment": "Dairy",
+    "records": "7.7M",
+    "updated": "14 hours ago",
+    "countries": 9,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 18
+  },
+  {
+    "id": "dataset-113",
+    "name": "Beef Land Data 113",
+    "description": "Historical and real-time data covering land metrics for beef operations.",
+    "category": "Land",
+    "segment": "Beef",
+    "records": "7.7M",
+    "updated": "8 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 103
+  },
+  {
+    "id": "dataset-114",
+    "name": "Aquaculture Feed Data 114",
+    "description": "Historical and real-time data covering feed metrics for aquaculture operations.",
+    "category": "Feed",
+    "segment": "Aquaculture",
+    "records": "2.2M",
+    "updated": "19 hours ago",
+    "countries": 12,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 84
+  },
+  {
+    "id": "dataset-115",
+    "name": "Beef Land Data 115",
+    "description": "Historical and real-time data covering land metrics for beef operations.",
+    "category": "Land",
+    "segment": "Beef",
+    "records": "5.1M",
+    "updated": "5 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 34
+  },
+  {
+    "id": "dataset-116",
+    "name": "Poultry Production Data 116",
+    "description": "Historical and real-time data covering production metrics for poultry operations.",
+    "category": "Production",
+    "segment": "Poultry",
+    "records": "1.5M",
+    "updated": "1 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 51
+  },
+  {
+    "id": "dataset-117",
+    "name": "Beef Health Data 117",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "9.6M",
+    "updated": "12 hours ago",
+    "countries": 3,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 56
+  },
+  {
+    "id": "dataset-118",
+    "name": "Beef Health Data 118",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "1.3M",
+    "updated": "9 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 82
+  },
+  {
+    "id": "dataset-119",
+    "name": "Swine Health Data 119",
+    "description": "Historical and real-time data covering health metrics for swine operations.",
+    "category": "Health",
+    "segment": "Swine",
+    "records": "9.6M",
+    "updated": "21 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 27
+  },
+  {
+    "id": "dataset-120",
+    "name": "Aquaculture Land Data 120",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "3.2M",
+    "updated": "1 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 84
+  },
+  {
+    "id": "dataset-121",
+    "name": "Aquaculture Land Data 121",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "6.3M",
+    "updated": "14 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 16
+  },
+  {
+    "id": "dataset-122",
+    "name": "Beef Health Data 122",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "7.8M",
+    "updated": "17 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 56
+  },
+  {
+    "id": "dataset-123",
+    "name": "Poultry Emissions Data 123",
+    "description": "Historical and real-time data covering emissions metrics for poultry operations.",
+    "category": "Emissions",
+    "segment": "Poultry",
+    "records": "8.4M",
+    "updated": "7 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 27
+  },
+  {
+    "id": "dataset-124",
+    "name": "Beef Energy Data 124",
+    "description": "Historical and real-time data covering energy metrics for beef operations.",
+    "category": "Energy",
+    "segment": "Beef",
+    "records": "7.1M",
+    "updated": "6 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 106
+  },
+  {
+    "id": "dataset-125",
+    "name": "Aquaculture Health Data 125",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "9.2M",
+    "updated": "2 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 26
+  },
+  {
+    "id": "dataset-126",
+    "name": "Dairy Water Data 126",
+    "description": "Historical and real-time data covering water metrics for dairy operations.",
+    "category": "Water",
+    "segment": "Dairy",
+    "records": "6.5M",
+    "updated": "18 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 97
+  },
+  {
+    "id": "dataset-127",
+    "name": "Poultry Feed Data 127",
+    "description": "Historical and real-time data covering feed metrics for poultry operations.",
+    "category": "Feed",
+    "segment": "Poultry",
+    "records": "3.1M",
+    "updated": "14 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 49
+  },
+  {
+    "id": "dataset-128",
+    "name": "Poultry Health Data 128",
+    "description": "Historical and real-time data covering health metrics for poultry operations.",
+    "category": "Health",
+    "segment": "Poultry",
+    "records": "7.6M",
+    "updated": "7 hours ago",
+    "countries": 3,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 101
+  },
+  {
+    "id": "dataset-129",
+    "name": "Beef Land Data 129",
+    "description": "Historical and real-time data covering land metrics for beef operations.",
+    "category": "Land",
+    "segment": "Beef",
+    "records": "1.3M",
+    "updated": "15 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 68
+  },
+  {
+    "id": "dataset-130",
+    "name": "Aquaculture Land Data 130",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "4.2M",
+    "updated": "11 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 97
+  },
+  {
+    "id": "dataset-131",
+    "name": "Aquaculture Water Data 131",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "5.6M",
+    "updated": "9 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 78
+  },
+  {
+    "id": "dataset-132",
+    "name": "Swine Health Data 132",
+    "description": "Historical and real-time data covering health metrics for swine operations.",
+    "category": "Health",
+    "segment": "Swine",
+    "records": "6.7M",
+    "updated": "21 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 106
+  },
+  {
+    "id": "dataset-133",
+    "name": "Dairy Water Data 133",
+    "description": "Historical and real-time data covering water metrics for dairy operations.",
+    "category": "Water",
+    "segment": "Dairy",
+    "records": "8.3M",
+    "updated": "12 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 36
+  },
+  {
+    "id": "dataset-134",
+    "name": "Aquaculture Land Data 134",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "3.3M",
+    "updated": "13 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 55
+  },
+  {
+    "id": "dataset-135",
+    "name": "Poultry Feed Data 135",
+    "description": "Historical and real-time data covering feed metrics for poultry operations.",
+    "category": "Feed",
+    "segment": "Poultry",
+    "records": "9.0M",
+    "updated": "20 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 45
+  },
+  {
+    "id": "dataset-136",
+    "name": "Beef Water Data 136",
+    "description": "Historical and real-time data covering water metrics for beef operations.",
+    "category": "Water",
+    "segment": "Beef",
+    "records": "9.8M",
+    "updated": "20 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 15
+  },
+  {
+    "id": "dataset-137",
+    "name": "Dairy Water Data 137",
+    "description": "Historical and real-time data covering water metrics for dairy operations.",
+    "category": "Water",
+    "segment": "Dairy",
+    "records": "7.0M",
+    "updated": "13 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 38
+  },
+  {
+    "id": "dataset-138",
+    "name": "Poultry Water Data 138",
+    "description": "Historical and real-time data covering water metrics for poultry operations.",
+    "category": "Water",
+    "segment": "Poultry",
+    "records": "0.2M",
+    "updated": "21 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 90
+  },
+  {
+    "id": "dataset-139",
+    "name": "Dairy Energy Data 139",
+    "description": "Historical and real-time data covering energy metrics for dairy operations.",
+    "category": "Energy",
+    "segment": "Dairy",
+    "records": "3.0M",
+    "updated": "8 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 103
+  },
+  {
+    "id": "dataset-140",
+    "name": "Dairy Land Data 140",
+    "description": "Historical and real-time data covering land metrics for dairy operations.",
+    "category": "Land",
+    "segment": "Dairy",
+    "records": "3.8M",
+    "updated": "2 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 30
+  },
+  {
+    "id": "dataset-141",
+    "name": "Beef Health Data 141",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "3.1M",
+    "updated": "1 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 46
+  },
+  {
+    "id": "dataset-142",
+    "name": "Poultry Health Data 142",
+    "description": "Historical and real-time data covering health metrics for poultry operations.",
+    "category": "Health",
+    "segment": "Poultry",
+    "records": "6.1M",
+    "updated": "22 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 105
+  },
+  {
+    "id": "dataset-143",
+    "name": "Aquaculture Health Data 143",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "4.8M",
+    "updated": "0 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 57
+  },
+  {
+    "id": "dataset-144",
+    "name": "Dairy Energy Data 144",
+    "description": "Historical and real-time data covering energy metrics for dairy operations.",
+    "category": "Energy",
+    "segment": "Dairy",
+    "records": "9.8M",
+    "updated": "16 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 14
+  },
+  {
+    "id": "dataset-145",
+    "name": "Beef Health Data 145",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "3.5M",
+    "updated": "22 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 68
+  },
+  {
+    "id": "dataset-146",
+    "name": "Aquaculture Health Data 146",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "0.2M",
+    "updated": "6 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 12
+  },
+  {
+    "id": "dataset-147",
+    "name": "Swine Emissions Data 147",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "6.7M",
+    "updated": "15 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 12
+  },
+  {
+    "id": "dataset-148",
+    "name": "Poultry Production Data 148",
+    "description": "Historical and real-time data covering production metrics for poultry operations.",
+    "category": "Production",
+    "segment": "Poultry",
+    "records": "8.5M",
+    "updated": "0 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 82
+  },
+  {
+    "id": "dataset-149",
+    "name": "Swine Feed Data 149",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "1.4M",
+    "updated": "2 hours ago",
+    "countries": 6,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 54
+  },
+  {
+    "id": "dataset-150",
+    "name": "Poultry Feed Data 150",
+    "description": "Historical and real-time data covering feed metrics for poultry operations.",
+    "category": "Feed",
+    "segment": "Poultry",
+    "records": "6.0M",
+    "updated": "21 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 105
+  },
+  {
+    "id": "dataset-151",
+    "name": "Swine Production Data 151",
+    "description": "Historical and real-time data covering production metrics for swine operations.",
+    "category": "Production",
+    "segment": "Swine",
+    "records": "1.0M",
+    "updated": "16 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 86
+  },
+  {
+    "id": "dataset-152",
+    "name": "Beef Health Data 152",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "1.3M",
+    "updated": "5 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 50
+  },
+  {
+    "id": "dataset-153",
+    "name": "Aquaculture Production Data 153",
+    "description": "Historical and real-time data covering production metrics for aquaculture operations.",
+    "category": "Production",
+    "segment": "Aquaculture",
+    "records": "0.0M",
+    "updated": "3 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 30
+  },
+  {
+    "id": "dataset-154",
+    "name": "Aquaculture Health Data 154",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "0.1M",
+    "updated": "16 hours ago",
+    "countries": 9,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 22
+  },
+  {
+    "id": "dataset-155",
+    "name": "Dairy Feed Data 155",
+    "description": "Historical and real-time data covering feed metrics for dairy operations.",
+    "category": "Feed",
+    "segment": "Dairy",
+    "records": "3.2M",
+    "updated": "4 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 37
+  },
+  {
+    "id": "dataset-156",
+    "name": "Beef Emissions Data 156",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "8.7M",
+    "updated": "1 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 86
+  },
+  {
+    "id": "dataset-157",
+    "name": "Beef Energy Data 157",
+    "description": "Historical and real-time data covering energy metrics for beef operations.",
+    "category": "Energy",
+    "segment": "Beef",
+    "records": "6.7M",
+    "updated": "1 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 107
+  },
+  {
+    "id": "dataset-158",
+    "name": "Aquaculture Water Data 158",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "4.7M",
+    "updated": "6 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 78
+  },
+  {
+    "id": "dataset-159",
+    "name": "Swine Feed Data 159",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "2.2M",
+    "updated": "3 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 13
+  },
+  {
+    "id": "dataset-160",
+    "name": "Beef Feed Data 160",
+    "description": "Historical and real-time data covering feed metrics for beef operations.",
+    "category": "Feed",
+    "segment": "Beef",
+    "records": "3.8M",
+    "updated": "10 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 87
+  },
+  {
+    "id": "dataset-161",
+    "name": "Beef Health Data 161",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "1.2M",
+    "updated": "12 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 37
+  },
+  {
+    "id": "dataset-162",
+    "name": "Beef Emissions Data 162",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "1.0M",
+    "updated": "21 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 108
+  },
+  {
+    "id": "dataset-163",
+    "name": "Dairy Land Data 163",
+    "description": "Historical and real-time data covering land metrics for dairy operations.",
+    "category": "Land",
+    "segment": "Dairy",
+    "records": "9.7M",
+    "updated": "23 hours ago",
+    "countries": 12,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 52
+  },
+  {
+    "id": "dataset-164",
+    "name": "Beef Water Data 164",
+    "description": "Historical and real-time data covering water metrics for beef operations.",
+    "category": "Water",
+    "segment": "Beef",
+    "records": "9.8M",
+    "updated": "16 hours ago",
+    "countries": 6,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 82
+  },
+  {
+    "id": "dataset-165",
+    "name": "Dairy Health Data 165",
+    "description": "Historical and real-time data covering health metrics for dairy operations.",
+    "category": "Health",
+    "segment": "Dairy",
+    "records": "4.1M",
+    "updated": "7 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 38
+  },
+  {
+    "id": "dataset-166",
+    "name": "Dairy Production Data 166",
+    "description": "Historical and real-time data covering production metrics for dairy operations.",
+    "category": "Production",
+    "segment": "Dairy",
+    "records": "5.6M",
+    "updated": "17 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 23
+  },
+  {
+    "id": "dataset-167",
+    "name": "Aquaculture Emissions Data 167",
+    "description": "Historical and real-time data covering emissions metrics for aquaculture operations.",
+    "category": "Emissions",
+    "segment": "Aquaculture",
+    "records": "1.1M",
+    "updated": "9 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 64
+  },
+  {
+    "id": "dataset-168",
+    "name": "Beef Land Data 168",
+    "description": "Historical and real-time data covering land metrics for beef operations.",
+    "category": "Land",
+    "segment": "Beef",
+    "records": "7.4M",
+    "updated": "9 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 102
+  },
+  {
+    "id": "dataset-169",
+    "name": "Swine Land Data 169",
+    "description": "Historical and real-time data covering land metrics for swine operations.",
+    "category": "Land",
+    "segment": "Swine",
+    "records": "9.7M",
+    "updated": "3 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 18
+  },
+  {
+    "id": "dataset-170",
+    "name": "Dairy Emissions Data 170",
+    "description": "Historical and real-time data covering emissions metrics for dairy operations.",
+    "category": "Emissions",
+    "segment": "Dairy",
+    "records": "8.1M",
+    "updated": "0 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 101
+  },
+  {
+    "id": "dataset-171",
+    "name": "Dairy Emissions Data 171",
+    "description": "Historical and real-time data covering emissions metrics for dairy operations.",
+    "category": "Emissions",
+    "segment": "Dairy",
+    "records": "8.4M",
+    "updated": "21 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 99
+  },
+  {
+    "id": "dataset-172",
+    "name": "Swine Production Data 172",
+    "description": "Historical and real-time data covering production metrics for swine operations.",
+    "category": "Production",
+    "segment": "Swine",
+    "records": "8.4M",
+    "updated": "12 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 11
+  },
+  {
+    "id": "dataset-173",
+    "name": "Aquaculture Water Data 173",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "1.3M",
+    "updated": "22 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 54
+  },
+  {
+    "id": "dataset-174",
+    "name": "Aquaculture Land Data 174",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "0.8M",
+    "updated": "22 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 25
+  },
+  {
+    "id": "dataset-175",
+    "name": "Aquaculture Emissions Data 175",
+    "description": "Historical and real-time data covering emissions metrics for aquaculture operations.",
+    "category": "Emissions",
+    "segment": "Aquaculture",
+    "records": "2.5M",
+    "updated": "7 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 39
+  },
+  {
+    "id": "dataset-176",
+    "name": "Poultry Production Data 176",
+    "description": "Historical and real-time data covering production metrics for poultry operations.",
+    "category": "Production",
+    "segment": "Poultry",
+    "records": "0.5M",
+    "updated": "15 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 26
+  },
+  {
+    "id": "dataset-177",
+    "name": "Aquaculture Water Data 177",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "1.8M",
+    "updated": "12 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 61
+  },
+  {
+    "id": "dataset-178",
+    "name": "Poultry Health Data 178",
+    "description": "Historical and real-time data covering health metrics for poultry operations.",
+    "category": "Health",
+    "segment": "Poultry",
+    "records": "4.2M",
+    "updated": "4 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 76
+  },
+  {
+    "id": "dataset-179",
+    "name": "Beef Emissions Data 179",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "4.7M",
+    "updated": "9 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 70
+  },
+  {
+    "id": "dataset-180",
+    "name": "Poultry Land Data 180",
+    "description": "Historical and real-time data covering land metrics for poultry operations.",
+    "category": "Land",
+    "segment": "Poultry",
+    "records": "4.4M",
+    "updated": "2 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 98
+  },
+  {
+    "id": "dataset-181",
+    "name": "Dairy Land Data 181",
+    "description": "Historical and real-time data covering land metrics for dairy operations.",
+    "category": "Land",
+    "segment": "Dairy",
+    "records": "1.8M",
+    "updated": "20 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 82
+  },
+  {
+    "id": "dataset-182",
+    "name": "Poultry Energy Data 182",
+    "description": "Historical and real-time data covering energy metrics for poultry operations.",
+    "category": "Energy",
+    "segment": "Poultry",
+    "records": "6.2M",
+    "updated": "0 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 73
+  },
+  {
+    "id": "dataset-183",
+    "name": "Aquaculture Emissions Data 183",
+    "description": "Historical and real-time data covering emissions metrics for aquaculture operations.",
+    "category": "Emissions",
+    "segment": "Aquaculture",
+    "records": "1.3M",
+    "updated": "2 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 74
+  },
+  {
+    "id": "dataset-184",
+    "name": "Swine Emissions Data 184",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "2.3M",
+    "updated": "5 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 25
+  },
+  {
+    "id": "dataset-185",
+    "name": "Dairy Emissions Data 185",
+    "description": "Historical and real-time data covering emissions metrics for dairy operations.",
+    "category": "Emissions",
+    "segment": "Dairy",
+    "records": "7.0M",
+    "updated": "7 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 12
+  },
+  {
+    "id": "dataset-186",
+    "name": "Aquaculture Land Data 186",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "2.5M",
+    "updated": "2 hours ago",
+    "countries": 3,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 49
+  },
+  {
+    "id": "dataset-187",
+    "name": "Aquaculture Emissions Data 187",
+    "description": "Historical and real-time data covering emissions metrics for aquaculture operations.",
+    "category": "Emissions",
+    "segment": "Aquaculture",
+    "records": "4.1M",
+    "updated": "18 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 53
+  },
+  {
+    "id": "dataset-188",
+    "name": "Poultry Production Data 188",
+    "description": "Historical and real-time data covering production metrics for poultry operations.",
+    "category": "Production",
+    "segment": "Poultry",
+    "records": "5.5M",
+    "updated": "6 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 97
+  },
+  {
+    "id": "dataset-189",
+    "name": "Beef Energy Data 189",
+    "description": "Historical and real-time data covering energy metrics for beef operations.",
+    "category": "Energy",
+    "segment": "Beef",
+    "records": "7.0M",
+    "updated": "23 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 107
+  },
+  {
+    "id": "dataset-190",
+    "name": "Aquaculture Health Data 190",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "1.4M",
+    "updated": "14 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 104
+  },
+  {
+    "id": "dataset-191",
+    "name": "Aquaculture Water Data 191",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "2.4M",
+    "updated": "4 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 48
+  },
+  {
+    "id": "dataset-192",
+    "name": "Beef Health Data 192",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "7.7M",
+    "updated": "5 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 32
+  },
+  {
+    "id": "dataset-193",
+    "name": "Swine Health Data 193",
+    "description": "Historical and real-time data covering health metrics for swine operations.",
+    "category": "Health",
+    "segment": "Swine",
+    "records": "0.0M",
+    "updated": "9 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 71
+  },
+  {
+    "id": "dataset-194",
+    "name": "Swine Emissions Data 194",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "5.4M",
+    "updated": "8 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 82
+  },
+  {
+    "id": "dataset-195",
+    "name": "Swine Production Data 195",
+    "description": "Historical and real-time data covering production metrics for swine operations.",
+    "category": "Production",
+    "segment": "Swine",
+    "records": "3.0M",
+    "updated": "17 hours ago",
+    "countries": 6,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 74
+  },
+  {
+    "id": "dataset-196",
+    "name": "Poultry Health Data 196",
+    "description": "Historical and real-time data covering health metrics for poultry operations.",
+    "category": "Health",
+    "segment": "Poultry",
+    "records": "2.8M",
+    "updated": "11 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 84
+  },
+  {
+    "id": "dataset-197",
+    "name": "Swine Energy Data 197",
+    "description": "Historical and real-time data covering energy metrics for swine operations.",
+    "category": "Energy",
+    "segment": "Swine",
+    "records": "9.2M",
+    "updated": "14 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 29
+  },
+  {
+    "id": "dataset-198",
+    "name": "Poultry Water Data 198",
+    "description": "Historical and real-time data covering water metrics for poultry operations.",
+    "category": "Water",
+    "segment": "Poultry",
+    "records": "4.1M",
+    "updated": "8 hours ago",
+    "countries": 12,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 88
+  },
+  {
+    "id": "dataset-199",
+    "name": "Aquaculture Emissions Data 199",
+    "description": "Historical and real-time data covering emissions metrics for aquaculture operations.",
+    "category": "Emissions",
+    "segment": "Aquaculture",
+    "records": "0.2M",
+    "updated": "20 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 57
+  },
+  {
+    "id": "dataset-200",
+    "name": "Aquaculture Feed Data 200",
+    "description": "Historical and real-time data covering feed metrics for aquaculture operations.",
+    "category": "Feed",
+    "segment": "Aquaculture",
+    "records": "7.4M",
+    "updated": "17 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 15
+  },
+  {
+    "id": "dataset-201",
+    "name": "Aquaculture Health Data 201",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "1.5M",
+    "updated": "18 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 101
+  },
+  {
+    "id": "dataset-202",
+    "name": "Dairy Emissions Data 202",
+    "description": "Historical and real-time data covering emissions metrics for dairy operations.",
+    "category": "Emissions",
+    "segment": "Dairy",
+    "records": "8.4M",
+    "updated": "15 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 45
+  },
+  {
+    "id": "dataset-203",
+    "name": "Beef Energy Data 203",
+    "description": "Historical and real-time data covering energy metrics for beef operations.",
+    "category": "Energy",
+    "segment": "Beef",
+    "records": "4.5M",
+    "updated": "17 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 98
+  },
+  {
+    "id": "dataset-204",
+    "name": "Aquaculture Land Data 204",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "4.1M",
+    "updated": "11 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 78
+  },
+  {
+    "id": "dataset-205",
+    "name": "Poultry Water Data 205",
+    "description": "Historical and real-time data covering water metrics for poultry operations.",
+    "category": "Water",
+    "segment": "Poultry",
+    "records": "6.8M",
+    "updated": "8 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 17
+  },
+  {
+    "id": "dataset-206",
+    "name": "Aquaculture Energy Data 206",
+    "description": "Historical and real-time data covering energy metrics for aquaculture operations.",
+    "category": "Energy",
+    "segment": "Aquaculture",
+    "records": "8.5M",
+    "updated": "6 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 23
+  },
+  {
+    "id": "dataset-207",
+    "name": "Swine Emissions Data 207",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "8.6M",
+    "updated": "14 hours ago",
+    "countries": 12,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 76
+  },
+  {
+    "id": "dataset-208",
+    "name": "Beef Water Data 208",
+    "description": "Historical and real-time data covering water metrics for beef operations.",
+    "category": "Water",
+    "segment": "Beef",
+    "records": "6.8M",
+    "updated": "5 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 64
+  },
+  {
+    "id": "dataset-209",
+    "name": "Dairy Feed Data 209",
+    "description": "Historical and real-time data covering feed metrics for dairy operations.",
+    "category": "Feed",
+    "segment": "Dairy",
+    "records": "7.2M",
+    "updated": "11 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 77
+  },
+  {
+    "id": "dataset-210",
+    "name": "Dairy Feed Data 210",
+    "description": "Historical and real-time data covering feed metrics for dairy operations.",
+    "category": "Feed",
+    "segment": "Dairy",
+    "records": "9.5M",
+    "updated": "2 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 77
+  },
+  {
+    "id": "dataset-211",
+    "name": "Swine Energy Data 211",
+    "description": "Historical and real-time data covering energy metrics for swine operations.",
+    "category": "Energy",
+    "segment": "Swine",
+    "records": "9.0M",
+    "updated": "15 hours ago",
+    "countries": 3,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 101
+  },
+  {
+    "id": "dataset-212",
+    "name": "Aquaculture Energy Data 212",
+    "description": "Historical and real-time data covering energy metrics for aquaculture operations.",
+    "category": "Energy",
+    "segment": "Aquaculture",
+    "records": "0.3M",
+    "updated": "7 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 22
+  },
+  {
+    "id": "dataset-213",
+    "name": "Aquaculture Feed Data 213",
+    "description": "Historical and real-time data covering feed metrics for aquaculture operations.",
+    "category": "Feed",
+    "segment": "Aquaculture",
+    "records": "0.1M",
+    "updated": "6 hours ago",
+    "countries": 6,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 52
+  },
+  {
+    "id": "dataset-214",
+    "name": "Poultry Health Data 214",
+    "description": "Historical and real-time data covering health metrics for poultry operations.",
+    "category": "Health",
+    "segment": "Poultry",
+    "records": "8.4M",
+    "updated": "0 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 96
+  },
+  {
+    "id": "dataset-215",
+    "name": "Beef Water Data 215",
+    "description": "Historical and real-time data covering water metrics for beef operations.",
+    "category": "Water",
+    "segment": "Beef",
+    "records": "0.6M",
+    "updated": "3 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 16
+  },
+  {
+    "id": "dataset-216",
+    "name": "Swine Health Data 216",
+    "description": "Historical and real-time data covering health metrics for swine operations.",
+    "category": "Health",
+    "segment": "Swine",
+    "records": "5.7M",
+    "updated": "22 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 44
+  },
+  {
+    "id": "dataset-217",
+    "name": "Beef Production Data 217",
+    "description": "Historical and real-time data covering production metrics for beef operations.",
+    "category": "Production",
+    "segment": "Beef",
+    "records": "0.2M",
+    "updated": "2 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 17
+  },
+  {
+    "id": "dataset-218",
+    "name": "Aquaculture Land Data 218",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "8.8M",
+    "updated": "2 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 109
+  },
+  {
+    "id": "dataset-219",
+    "name": "Beef Water Data 219",
+    "description": "Historical and real-time data covering water metrics for beef operations.",
+    "category": "Water",
+    "segment": "Beef",
+    "records": "5.5M",
+    "updated": "10 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 70
+  },
+  {
+    "id": "dataset-220",
+    "name": "Dairy Land Data 220",
+    "description": "Historical and real-time data covering land metrics for dairy operations.",
+    "category": "Land",
+    "segment": "Dairy",
+    "records": "4.4M",
+    "updated": "1 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 107
+  },
+  {
+    "id": "dataset-221",
+    "name": "Dairy Energy Data 221",
+    "description": "Historical and real-time data covering energy metrics for dairy operations.",
+    "category": "Energy",
+    "segment": "Dairy",
+    "records": "5.2M",
+    "updated": "20 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 43
+  },
+  {
+    "id": "dataset-222",
+    "name": "Aquaculture Emissions Data 222",
+    "description": "Historical and real-time data covering emissions metrics for aquaculture operations.",
+    "category": "Emissions",
+    "segment": "Aquaculture",
+    "records": "8.3M",
+    "updated": "2 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 40
+  },
+  {
+    "id": "dataset-223",
+    "name": "Swine Feed Data 223",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "9.3M",
+    "updated": "9 hours ago",
+    "countries": 6,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 69
+  },
+  {
+    "id": "dataset-224",
+    "name": "Swine Production Data 224",
+    "description": "Historical and real-time data covering production metrics for swine operations.",
+    "category": "Production",
+    "segment": "Swine",
+    "records": "8.4M",
+    "updated": "15 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 32
+  },
+  {
+    "id": "dataset-225",
+    "name": "Poultry Production Data 225",
+    "description": "Historical and real-time data covering production metrics for poultry operations.",
+    "category": "Production",
+    "segment": "Poultry",
+    "records": "7.4M",
+    "updated": "5 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 84
+  },
+  {
+    "id": "dataset-226",
+    "name": "Aquaculture Emissions Data 226",
+    "description": "Historical and real-time data covering emissions metrics for aquaculture operations.",
+    "category": "Emissions",
+    "segment": "Aquaculture",
+    "records": "9.2M",
+    "updated": "6 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 59
+  },
+  {
+    "id": "dataset-227",
+    "name": "Aquaculture Energy Data 227",
+    "description": "Historical and real-time data covering energy metrics for aquaculture operations.",
+    "category": "Energy",
+    "segment": "Aquaculture",
+    "records": "3.2M",
+    "updated": "0 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 11
+  },
+  {
+    "id": "dataset-228",
+    "name": "Dairy Feed Data 228",
+    "description": "Historical and real-time data covering feed metrics for dairy operations.",
+    "category": "Feed",
+    "segment": "Dairy",
+    "records": "4.4M",
+    "updated": "19 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 47
+  },
+  {
+    "id": "dataset-229",
+    "name": "Aquaculture Feed Data 229",
+    "description": "Historical and real-time data covering feed metrics for aquaculture operations.",
+    "category": "Feed",
+    "segment": "Aquaculture",
+    "records": "6.8M",
+    "updated": "7 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 38
+  },
+  {
+    "id": "dataset-230",
+    "name": "Swine Feed Data 230",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "3.8M",
+    "updated": "23 hours ago",
+    "countries": 15,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 60
+  },
+  {
+    "id": "dataset-231",
+    "name": "Dairy Energy Data 231",
+    "description": "Historical and real-time data covering energy metrics for dairy operations.",
+    "category": "Energy",
+    "segment": "Dairy",
+    "records": "5.2M",
+    "updated": "15 hours ago",
+    "countries": 9,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 62
+  },
+  {
+    "id": "dataset-232",
+    "name": "Dairy Feed Data 232",
+    "description": "Historical and real-time data covering feed metrics for dairy operations.",
+    "category": "Feed",
+    "segment": "Dairy",
+    "records": "5.4M",
+    "updated": "7 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 45
+  },
+  {
+    "id": "dataset-233",
+    "name": "Beef Emissions Data 233",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "7.4M",
+    "updated": "18 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 47
+  },
+  {
+    "id": "dataset-234",
+    "name": "Aquaculture Emissions Data 234",
+    "description": "Historical and real-time data covering emissions metrics for aquaculture operations.",
+    "category": "Emissions",
+    "segment": "Aquaculture",
+    "records": "2.8M",
+    "updated": "4 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 69
+  },
+  {
+    "id": "dataset-235",
+    "name": "Poultry Emissions Data 235",
+    "description": "Historical and real-time data covering emissions metrics for poultry operations.",
+    "category": "Emissions",
+    "segment": "Poultry",
+    "records": "4.5M",
+    "updated": "14 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 80
+  },
+  {
+    "id": "dataset-236",
+    "name": "Aquaculture Water Data 236",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "7.2M",
+    "updated": "20 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 36
+  },
+  {
+    "id": "dataset-237",
+    "name": "Beef Water Data 237",
+    "description": "Historical and real-time data covering water metrics for beef operations.",
+    "category": "Water",
+    "segment": "Beef",
+    "records": "9.8M",
+    "updated": "4 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 83
+  },
+  {
+    "id": "dataset-238",
+    "name": "Aquaculture Health Data 238",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "7.1M",
+    "updated": "18 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 76
+  },
+  {
+    "id": "dataset-239",
+    "name": "Aquaculture Health Data 239",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "7.6M",
+    "updated": "7 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 50
+  },
+  {
+    "id": "dataset-240",
+    "name": "Dairy Energy Data 240",
+    "description": "Historical and real-time data covering energy metrics for dairy operations.",
+    "category": "Energy",
+    "segment": "Dairy",
+    "records": "8.6M",
+    "updated": "19 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 107
+  },
+  {
+    "id": "dataset-241",
+    "name": "Swine Production Data 241",
+    "description": "Historical and real-time data covering production metrics for swine operations.",
+    "category": "Production",
+    "segment": "Swine",
+    "records": "4.3M",
+    "updated": "22 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 70
+  },
+  {
+    "id": "dataset-242",
+    "name": "Swine Energy Data 242",
+    "description": "Historical and real-time data covering energy metrics for swine operations.",
+    "category": "Energy",
+    "segment": "Swine",
+    "records": "6.5M",
+    "updated": "3 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 54
+  },
+  {
+    "id": "dataset-243",
+    "name": "Beef Emissions Data 243",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "8.1M",
+    "updated": "3 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 83
+  },
+  {
+    "id": "dataset-244",
+    "name": "Beef Emissions Data 244",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "2.0M",
+    "updated": "1 hours ago",
+    "countries": 12,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 11
+  },
+  {
+    "id": "dataset-245",
+    "name": "Dairy Production Data 245",
+    "description": "Historical and real-time data covering production metrics for dairy operations.",
+    "category": "Production",
+    "segment": "Dairy",
+    "records": "7.5M",
+    "updated": "0 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 52
+  },
+  {
+    "id": "dataset-246",
+    "name": "Aquaculture Health Data 246",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "3.5M",
+    "updated": "12 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 54
+  },
+  {
+    "id": "dataset-247",
+    "name": "Beef Health Data 247",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "4.8M",
+    "updated": "11 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 46
+  },
+  {
+    "id": "dataset-248",
+    "name": "Poultry Land Data 248",
+    "description": "Historical and real-time data covering land metrics for poultry operations.",
+    "category": "Land",
+    "segment": "Poultry",
+    "records": "1.8M",
+    "updated": "5 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 67
+  },
+  {
+    "id": "dataset-249",
+    "name": "Aquaculture Health Data 249",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "7.2M",
+    "updated": "19 hours ago",
+    "countries": 10,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 60
+  },
+  {
+    "id": "dataset-250",
+    "name": "Dairy Land Data 250",
+    "description": "Historical and real-time data covering land metrics for dairy operations.",
+    "category": "Land",
+    "segment": "Dairy",
+    "records": "3.2M",
+    "updated": "16 hours ago",
+    "countries": 6,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 28
+  },
+  {
+    "id": "dataset-251",
+    "name": "Dairy Energy Data 251",
+    "description": "Historical and real-time data covering energy metrics for dairy operations.",
+    "category": "Energy",
+    "segment": "Dairy",
+    "records": "3.1M",
+    "updated": "19 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 55
+  },
+  {
+    "id": "dataset-252",
+    "name": "Swine Water Data 252",
+    "description": "Historical and real-time data covering water metrics for swine operations.",
+    "category": "Water",
+    "segment": "Swine",
+    "records": "8.0M",
+    "updated": "16 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 71
+  },
+  {
+    "id": "dataset-253",
+    "name": "Beef Feed Data 253",
+    "description": "Historical and real-time data covering feed metrics for beef operations.",
+    "category": "Feed",
+    "segment": "Beef",
+    "records": "8.8M",
+    "updated": "23 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 23
+  },
+  {
+    "id": "dataset-254",
+    "name": "Aquaculture Land Data 254",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "7.0M",
+    "updated": "20 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 11
+  },
+  {
+    "id": "dataset-255",
+    "name": "Swine Land Data 255",
+    "description": "Historical and real-time data covering land metrics for swine operations.",
+    "category": "Land",
+    "segment": "Swine",
+    "records": "0.0M",
+    "updated": "19 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 60
+  },
+  {
+    "id": "dataset-256",
+    "name": "Aquaculture Energy Data 256",
+    "description": "Historical and real-time data covering energy metrics for aquaculture operations.",
+    "category": "Energy",
+    "segment": "Aquaculture",
+    "records": "7.3M",
+    "updated": "15 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 70
+  },
+  {
+    "id": "dataset-257",
+    "name": "Swine Land Data 257",
+    "description": "Historical and real-time data covering land metrics for swine operations.",
+    "category": "Land",
+    "segment": "Swine",
+    "records": "2.3M",
+    "updated": "16 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 17
+  },
+  {
+    "id": "dataset-258",
+    "name": "Beef Water Data 258",
+    "description": "Historical and real-time data covering water metrics for beef operations.",
+    "category": "Water",
+    "segment": "Beef",
+    "records": "4.4M",
+    "updated": "3 hours ago",
+    "countries": 8,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 49
+  },
+  {
+    "id": "dataset-259",
+    "name": "Swine Feed Data 259",
+    "description": "Historical and real-time data covering feed metrics for swine operations.",
+    "category": "Feed",
+    "segment": "Swine",
+    "records": "4.4M",
+    "updated": "13 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 36
+  },
+  {
+    "id": "dataset-260",
+    "name": "Poultry Emissions Data 260",
+    "description": "Historical and real-time data covering emissions metrics for poultry operations.",
+    "category": "Emissions",
+    "segment": "Poultry",
+    "records": "1.2M",
+    "updated": "8 hours ago",
+    "countries": 6,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 64
+  },
+  {
+    "id": "dataset-261",
+    "name": "Poultry Energy Data 261",
+    "description": "Historical and real-time data covering energy metrics for poultry operations.",
+    "category": "Energy",
+    "segment": "Poultry",
+    "records": "3.6M",
+    "updated": "18 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 58
+  },
+  {
+    "id": "dataset-262",
+    "name": "Dairy Water Data 262",
+    "description": "Historical and real-time data covering water metrics for dairy operations.",
+    "category": "Water",
+    "segment": "Dairy",
+    "records": "7.2M",
+    "updated": "7 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 94
+  },
+  {
+    "id": "dataset-263",
+    "name": "Beef Health Data 263",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "8.7M",
+    "updated": "2 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 20
+  },
+  {
+    "id": "dataset-264",
+    "name": "Poultry Emissions Data 264",
+    "description": "Historical and real-time data covering emissions metrics for poultry operations.",
+    "category": "Emissions",
+    "segment": "Poultry",
+    "records": "5.4M",
+    "updated": "12 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 73
+  },
+  {
+    "id": "dataset-265",
+    "name": "Beef Energy Data 265",
+    "description": "Historical and real-time data covering energy metrics for beef operations.",
+    "category": "Energy",
+    "segment": "Beef",
+    "records": "6.6M",
+    "updated": "14 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 69
+  },
+  {
+    "id": "dataset-266",
+    "name": "Poultry Health Data 266",
+    "description": "Historical and real-time data covering health metrics for poultry operations.",
+    "category": "Health",
+    "segment": "Poultry",
+    "records": "7.1M",
+    "updated": "22 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 29
+  },
+  {
+    "id": "dataset-267",
+    "name": "Aquaculture Feed Data 267",
+    "description": "Historical and real-time data covering feed metrics for aquaculture operations.",
+    "category": "Feed",
+    "segment": "Aquaculture",
+    "records": "1.4M",
+    "updated": "16 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 105
+  },
+  {
+    "id": "dataset-268",
+    "name": "Swine Land Data 268",
+    "description": "Historical and real-time data covering land metrics for swine operations.",
+    "category": "Land",
+    "segment": "Swine",
+    "records": "5.5M",
+    "updated": "8 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 35
+  },
+  {
+    "id": "dataset-269",
+    "name": "Dairy Energy Data 269",
+    "description": "Historical and real-time data covering energy metrics for dairy operations.",
+    "category": "Energy",
+    "segment": "Dairy",
+    "records": "5.1M",
+    "updated": "4 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 86
+  },
+  {
+    "id": "dataset-270",
+    "name": "Beef Feed Data 270",
+    "description": "Historical and real-time data covering feed metrics for beef operations.",
+    "category": "Feed",
+    "segment": "Beef",
+    "records": "3.3M",
+    "updated": "7 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 52
+  },
+  {
+    "id": "dataset-271",
+    "name": "Beef Feed Data 271",
+    "description": "Historical and real-time data covering feed metrics for beef operations.",
+    "category": "Feed",
+    "segment": "Beef",
+    "records": "7.0M",
+    "updated": "22 hours ago",
+    "countries": 2,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 76
+  },
+  {
+    "id": "dataset-272",
+    "name": "Dairy Production Data 272",
+    "description": "Historical and real-time data covering production metrics for dairy operations.",
+    "category": "Production",
+    "segment": "Dairy",
+    "records": "1.3M",
+    "updated": "18 hours ago",
+    "countries": 7,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 23
+  },
+  {
+    "id": "dataset-273",
+    "name": "Swine Health Data 273",
+    "description": "Historical and real-time data covering health metrics for swine operations.",
+    "category": "Health",
+    "segment": "Swine",
+    "records": "2.6M",
+    "updated": "18 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 102
+  },
+  {
+    "id": "dataset-274",
+    "name": "Dairy Land Data 274",
+    "description": "Historical and real-time data covering land metrics for dairy operations.",
+    "category": "Land",
+    "segment": "Dairy",
+    "records": "3.0M",
+    "updated": "9 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 76
+  },
+  {
+    "id": "dataset-275",
+    "name": "Poultry Production Data 275",
+    "description": "Historical and real-time data covering production metrics for poultry operations.",
+    "category": "Production",
+    "segment": "Poultry",
+    "records": "3.6M",
+    "updated": "8 hours ago",
+    "countries": 14,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 46
+  },
+  {
+    "id": "dataset-276",
+    "name": "Swine Land Data 276",
+    "description": "Historical and real-time data covering land metrics for swine operations.",
+    "category": "Land",
+    "segment": "Swine",
+    "records": "9.2M",
+    "updated": "12 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 63
+  },
+  {
+    "id": "dataset-277",
+    "name": "Poultry Land Data 277",
+    "description": "Historical and real-time data covering land metrics for poultry operations.",
+    "category": "Land",
+    "segment": "Poultry",
+    "records": "6.4M",
+    "updated": "14 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 85
+  },
+  {
+    "id": "dataset-278",
+    "name": "Aquaculture Land Data 278",
+    "description": "Historical and real-time data covering land metrics for aquaculture operations.",
+    "category": "Land",
+    "segment": "Aquaculture",
+    "records": "1.4M",
+    "updated": "1 hours ago",
+    "countries": 16,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 16
+  },
+  {
+    "id": "dataset-279",
+    "name": "Beef Health Data 279",
+    "description": "Historical and real-time data covering health metrics for beef operations.",
+    "category": "Health",
+    "segment": "Beef",
+    "records": "6.6M",
+    "updated": "5 hours ago",
+    "countries": 17,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 21
+  },
+  {
+    "id": "dataset-280",
+    "name": "Poultry Emissions Data 280",
+    "description": "Historical and real-time data covering emissions metrics for poultry operations.",
+    "category": "Emissions",
+    "segment": "Poultry",
+    "records": "4.6M",
+    "updated": "1 hours ago",
+    "countries": 3,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 50
+  },
+  {
+    "id": "dataset-281",
+    "name": "Dairy Water Data 281",
+    "description": "Historical and real-time data covering water metrics for dairy operations.",
+    "category": "Water",
+    "segment": "Dairy",
+    "records": "6.3M",
+    "updated": "13 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 68
+  },
+  {
+    "id": "dataset-282",
+    "name": "Swine Water Data 282",
+    "description": "Historical and real-time data covering water metrics for swine operations.",
+    "category": "Water",
+    "segment": "Swine",
+    "records": "4.2M",
+    "updated": "3 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "lime",
+    "price": 106
+  },
+  {
+    "id": "dataset-283",
+    "name": "Aquaculture Water Data 283",
+    "description": "Historical and real-time data covering water metrics for aquaculture operations.",
+    "category": "Water",
+    "segment": "Aquaculture",
+    "records": "3.0M",
+    "updated": "9 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 66
+  },
+  {
+    "id": "dataset-284",
+    "name": "Swine Emissions Data 284",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "0.1M",
+    "updated": "18 hours ago",
+    "countries": 5,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Open",
+    "color": "soil",
+    "price": 12
+  },
+  {
+    "id": "dataset-285",
+    "name": "Swine Emissions Data 285",
+    "description": "Historical and real-time data covering emissions metrics for swine operations.",
+    "category": "Emissions",
+    "segment": "Swine",
+    "records": "7.3M",
+    "updated": "19 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 56
+  },
+  {
+    "id": "dataset-286",
+    "name": "Aquaculture Health Data 286",
+    "description": "Historical and real-time data covering health metrics for aquaculture operations.",
+    "category": "Health",
+    "segment": "Aquaculture",
+    "records": "7.5M",
+    "updated": "4 hours ago",
+    "countries": 20,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 97
+  },
+  {
+    "id": "dataset-287",
+    "name": "Beef Land Data 287",
+    "description": "Historical and real-time data covering land metrics for beef operations.",
+    "category": "Land",
+    "segment": "Beef",
+    "records": "4.4M",
+    "updated": "12 hours ago",
+    "countries": 6,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 33
+  },
+  {
+    "id": "dataset-288",
+    "name": "Dairy Production Data 288",
+    "description": "Historical and real-time data covering production metrics for dairy operations.",
+    "category": "Production",
+    "segment": "Dairy",
+    "records": "3.8M",
+    "updated": "8 hours ago",
+    "countries": 12,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 38
+  },
+  {
+    "id": "dataset-289",
+    "name": "Poultry Feed Data 289",
+    "description": "Historical and real-time data covering feed metrics for poultry operations.",
+    "category": "Feed",
+    "segment": "Poultry",
+    "records": "5.2M",
+    "updated": "20 hours ago",
+    "countries": 6,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 90
+  },
+  {
+    "id": "dataset-290",
+    "name": "Aquaculture Energy Data 290",
+    "description": "Historical and real-time data covering energy metrics for aquaculture operations.",
+    "category": "Energy",
+    "segment": "Aquaculture",
+    "records": "9.0M",
+    "updated": "16 hours ago",
+    "countries": 9,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 38
+  },
+  {
+    "id": "dataset-291",
+    "name": "Aquaculture Energy Data 291",
+    "description": "Historical and real-time data covering energy metrics for aquaculture operations.",
+    "category": "Energy",
+    "segment": "Aquaculture",
+    "records": "7.3M",
+    "updated": "4 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Open",
+    "color": "gold",
+    "price": 89
+  },
+  {
+    "id": "dataset-292",
+    "name": "Poultry Energy Data 292",
+    "description": "Historical and real-time data covering energy metrics for poultry operations.",
+    "category": "Energy",
+    "segment": "Poultry",
+    "records": "2.1M",
+    "updated": "15 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "GeoJSON",
+      "Shapefile"
+    ],
+    "access": "Challenge Participants",
+    "color": "soil",
+    "price": 15
+  },
+  {
+    "id": "dataset-293",
+    "name": "Beef Land Data 293",
+    "description": "Historical and real-time data covering land metrics for beef operations.",
+    "category": "Land",
+    "segment": "Beef",
+    "records": "3.7M",
+    "updated": "13 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 33
+  },
+  {
+    "id": "dataset-294",
+    "name": "Dairy Energy Data 294",
+    "description": "Historical and real-time data covering energy metrics for dairy operations.",
+    "category": "Energy",
+    "segment": "Dairy",
+    "records": "5.0M",
+    "updated": "3 hours ago",
+    "countries": 19,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 59
+  },
+  {
+    "id": "dataset-295",
+    "name": "Beef Water Data 295",
+    "description": "Historical and real-time data covering water metrics for beef operations.",
+    "category": "Water",
+    "segment": "Beef",
+    "records": "0.3M",
+    "updated": "11 hours ago",
+    "countries": 18,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "JSON"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 11
+  },
+  {
+    "id": "dataset-296",
+    "name": "Beef Feed Data 296",
+    "description": "Historical and real-time data covering feed metrics for beef operations.",
+    "category": "Feed",
+    "segment": "Beef",
+    "records": "4.2M",
+    "updated": "2 hours ago",
+    "countries": 1,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Challenge Participants",
+    "color": "gold",
+    "price": 33
+  },
+  {
+    "id": "dataset-297",
+    "name": "Beef Emissions Data 297",
+    "description": "Historical and real-time data covering emissions metrics for beef operations.",
+    "category": "Emissions",
+    "segment": "Beef",
+    "records": "9.7M",
+    "updated": "8 hours ago",
+    "countries": 4,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "gold",
+    "price": 35
+  },
+  {
+    "id": "dataset-298",
+    "name": "Beef Energy Data 298",
+    "description": "Historical and real-time data covering energy metrics for beef operations.",
+    "category": "Energy",
+    "segment": "Beef",
+    "records": "1.8M",
+    "updated": "9 hours ago",
+    "countries": 11,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "CSV",
+      "Parquet"
+    ],
+    "access": "Challenge Participants",
+    "color": "lime",
+    "price": 94
+  },
+  {
+    "id": "dataset-299",
+    "name": "Poultry Feed Data 299",
+    "description": "Historical and real-time data covering feed metrics for poultry operations.",
+    "category": "Feed",
+    "segment": "Poultry",
+    "records": "4.3M",
+    "updated": "14 hours ago",
+    "countries": 13,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "REST API",
+      "WebSocket"
+    ],
+    "access": "Private",
+    "color": "soil",
+    "price": 31
+  },
+  {
+    "id": "dataset-300",
+    "name": "Dairy Health Data 300",
+    "description": "Historical and real-time data covering health metrics for dairy operations.",
+    "category": "Health",
+    "segment": "Dairy",
+    "records": "0.5M",
+    "updated": "10 hours ago",
+    "countries": 12,
+    "years": "2015–2025",
+    "fields": [
+      "farm_id",
+      "timestamp",
+      "metric_value",
+      "location"
+    ],
+    "format": [
+      "JSON",
+      "API"
+    ],
+    "access": "Private",
+    "color": "lime",
+    "price": 91
+  }
+]

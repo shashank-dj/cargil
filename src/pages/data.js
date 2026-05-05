@@ -179,23 +179,75 @@ export function renderData() {
         <div class="section-label">Search</div>
         <h2 class="font-display text-3xl text-white tracking-wide mb-6">FIND DATASETS</h2>
       
-        <div class="flex flex-col md:flex-row gap-4 max-w-2xl">
+        <div class="flex flex-col md:flex-row gap-4">
           
           <!-- Search Input -->
-          <div class="relative flex-1">
+          <div class="relative flex-1" id="searchContainer">
             <input 
               id="datasetSearch"
               type="text"
+              autocomplete="off"
               placeholder="Search by name, category, segment..."
-              class="w-full bg-forest-950 border border-forest-600 text-white px-4 py-3 pr-10 font-mono text-sm focus:outline-none focus:border-lime-400"
+              class="w-full bg-forest-950 border border-forest-600 text-white px-4 py-3 pr-10 font-mono text-sm focus:outline-none focus:border-lime-400 relative z-20"
             />
-            <span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"></span>
+            <span id="searchClear" class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 cursor-pointer hidden z-20 hover:text-lime-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </span>
+            
+            <!-- Search Dropdown -->
+            <div id="searchDropdown" class="hidden absolute top-full left-0 right-0 mt-1 bg-white text-gray-900 rounded-b shadow-2xl z-50 overflow-hidden border border-gray-200" style="min-height: 320px; max-height: 450px;">
+              <div class="flex h-full" style="min-height: 320px;">
+                <!-- Left Pane: Popular Searches -->
+                <div class="w-2/5 bg-gray-50 p-6 border-r border-gray-200">
+                  <h4 class="text-xs font-bold text-gray-800 mb-4 tracking-wider uppercase">Popular Searches</h4>
+                  <ul class="space-y-1">
+                    <li class="flex items-center gap-3 text-sm text-gray-700 hover:text-green-700 hover:bg-gray-100 cursor-pointer font-medium popular-search-item rounded px-2 py-2 transition-colors">
+                      <iconify-icon icon="solar:magnifer-line-duotone" width="18" class="text-green-600 shrink-0"></iconify-icon>
+                      <span>swine emissions</span>
+                      <iconify-icon icon="solar:arrow-right-up-line-duotone" width="16" class="ml-auto text-green-600 opacity-40"></iconify-icon>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-gray-700 hover:text-green-700 hover:bg-gray-100 cursor-pointer font-medium popular-search-item rounded px-2 py-2 transition-colors">
+                      <iconify-icon icon="solar:magnifer-line-duotone" width="18" class="text-green-600 shrink-0"></iconify-icon>
+                      <span>dairy water</span>
+                      <iconify-icon icon="solar:arrow-right-up-line-duotone" width="16" class="ml-auto text-green-600 opacity-40"></iconify-icon>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-gray-700 hover:text-green-700 hover:bg-gray-100 cursor-pointer font-medium popular-search-item rounded px-2 py-2 transition-colors">
+                      <iconify-icon icon="solar:magnifer-line-duotone" width="18" class="text-green-600 shrink-0"></iconify-icon>
+                      <span>poultry feed efficiency</span>
+                      <iconify-icon icon="solar:arrow-right-up-line-duotone" width="16" class="ml-auto text-green-600 opacity-40"></iconify-icon>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-gray-700 hover:text-green-700 hover:bg-gray-100 cursor-pointer font-medium popular-search-item rounded px-2 py-2 transition-colors">
+                      <iconify-icon icon="solar:magnifer-line-duotone" width="18" class="text-green-600 shrink-0"></iconify-icon>
+                      <span>beef land use</span>
+                      <iconify-icon icon="solar:arrow-right-up-line-duotone" width="16" class="ml-auto text-green-600 opacity-40"></iconify-icon>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-gray-700 hover:text-green-700 hover:bg-gray-100 cursor-pointer font-medium popular-search-item rounded px-2 py-2 transition-colors">
+                      <iconify-icon icon="solar:magnifer-line-duotone" width="18" class="text-green-600 shrink-0"></iconify-icon>
+                      <span>aquaculture health</span>
+                      <iconify-icon icon="solar:arrow-right-up-line-duotone" width="16" class="ml-auto text-green-600 opacity-40"></iconify-icon>
+                    </li>
+                  </ul>
+                </div>
+                
+                <!-- Right Pane: Datasets -->
+                <div class="w-3/5 p-6 overflow-y-auto bg-white">
+                  <div class="flex justify-between items-center mb-4">
+                    <h4 class="text-xs font-bold text-gray-800 tracking-wider uppercase">Datasets</h4>
+                    <span id="searchResultsCount" class="text-xs text-green-700 cursor-pointer hover:underline font-medium">See more datasets →</span>
+                  </div>
+                  <div id="searchResultsList" class="space-y-1">
+                    <!-- Results rendered here -->
+                    <div class="text-sm text-gray-500 py-4">Type to start searching...</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
       
           <!-- Dropdown Filter -->
           <select 
             id="datasetFilter"
-            class="bg-forest-950 border border-forest-600 text-white px-4 py-3 font-mono text-sm focus:outline-none focus:border-lime-400"
+            class="bg-forest-950 border border-forest-600 text-white px-4 py-3 font-mono text-sm focus:outline-none focus:border-lime-400 md:w-48"
           >
             <option value="all">All Categories</option>
             <option value="carbon">Carbon</option>
@@ -206,6 +258,35 @@ export function renderData() {
       
         </div>
       </section>
+
+      <!-- Signup Modal -->
+      <div id="signupModal" class="fixed inset-0 z-[100] hidden items-center justify-center" style="background: rgba(0,0,0,0.6); backdrop-filter: blur(4px);">
+        <div class="bg-white rounded-lg shadow-2xl max-w-md w-full mx-4 overflow-hidden" style="animation: fadeUp 0.3s ease both;">
+          <!-- Modal Header -->
+          <div class="bg-gradient-to-r from-green-700 to-green-900 p-6 text-white">
+            <div class="flex items-center gap-3 mb-3">
+              <iconify-icon icon="solar:lock-keyhole-bold-duotone" width="28" class="text-lime-300"></iconify-icon>
+              <h3 class="font-display text-2xl tracking-wide">ACCESS REQUIRED</h3>
+            </div>
+            <p class="text-green-200 text-sm leading-relaxed">This dataset is available to registered challenge participants. Sign up to get full access to all datasets and the REST API.</p>
+          </div>
+          <!-- Modal Body -->
+          <div class="p-6">
+            <div id="modalDatasetInfo" class="mb-5 p-4 bg-gray-50 rounded-lg border border-gray-200">
+              <!-- Filled dynamically -->
+            </div>
+            <div class="space-y-3">
+              <a href="#/challenges" id="modalSignupBtn" class="flex items-center justify-center gap-2 w-full bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-4 rounded-lg transition-colors text-sm tracking-wide">
+                <iconify-icon icon="solar:user-plus-bold-duotone" width="20"></iconify-icon>
+                SIGN UP FOR THE CHALLENGE
+              </a>
+              <button id="modalCloseBtn" class="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium py-3 px-4 rounded-lg transition-colors text-sm">
+                Maybe Later
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Dataset catalog -->
       <section class="max-w-7xl mx-auto px-6 pb-24">
         <div class="section-label">Dataset Catalog</div>
@@ -290,3 +371,173 @@ export function renderData() {
     </div>
   `
 }
+
+export function initData() {
+  const searchInput = document.getElementById('datasetSearch')
+  const searchClear = document.getElementById('searchClear')
+  const searchDropdown = document.getElementById('searchDropdown')
+  const searchContainer = document.getElementById('searchContainer')
+  const searchResultsList = document.getElementById('searchResultsList')
+  const searchResultsCount = document.getElementById('searchResultsCount')
+  const popularItems = document.querySelectorAll('.popular-search-item')
+  const signupModal = document.getElementById('signupModal')
+  const modalCloseBtn = document.getElementById('modalCloseBtn')
+  const modalSignupBtn = document.getElementById('modalSignupBtn')
+  const modalDatasetInfo = document.getElementById('modalDatasetInfo')
+  
+  let allDatasets = []
+
+  // Icon mapping by category
+  const categoryIcons = {
+    'Emissions': 'solar:cloud-bolt-bold-duotone',
+    'Water': 'solar:water-drops-bold-duotone',
+    'Energy': 'solar:bolt-circle-bold-duotone',
+    'Land': 'solar:earth-bold-duotone',
+    'Feed': 'solar:leaf-bold-duotone',
+    'Health': 'solar:heart-pulse-bold-duotone',
+    'Production': 'solar:chart-square-bold-duotone',
+    'Simulation': 'solar:cpu-bolt-bold-duotone',
+  }
+
+  const getCategoryIcon = (category) => categoryIcons[category] || 'solar:database-bold-duotone'
+
+  // Show signup modal
+  const showSignupModal = (dataset) => {
+    modalDatasetInfo.innerHTML = `
+      <div class="flex items-center gap-3">
+        <iconify-icon icon="${getCategoryIcon(dataset.category)}" width="32" style="color: #15803d;"></iconify-icon>
+        <div>
+          <div class="text-xs font-bold text-gray-500 uppercase tracking-wider">${dataset.category} · ${dataset.segment}</div>
+          <div class="text-sm font-semibold text-gray-900">${dataset.name}</div>
+          <div class="text-xs text-gray-500 mt-1">${dataset.records} records · Updated ${dataset.updated}</div>
+        </div>
+      </div>
+    `
+    signupModal.classList.remove('hidden')
+    signupModal.classList.add('flex')
+  }
+
+  // Close modal
+  modalCloseBtn.addEventListener('click', () => {
+    signupModal.classList.add('hidden')
+    signupModal.classList.remove('flex')
+  })
+
+  modalSignupBtn.addEventListener('click', () => {
+    signupModal.classList.add('hidden')
+    signupModal.classList.remove('flex')
+  })
+
+  // Close modal on backdrop click
+  signupModal.addEventListener('click', (e) => {
+    if (e.target === signupModal) {
+      signupModal.classList.add('hidden')
+      signupModal.classList.remove('flex')
+    }
+  })
+
+  // Fetch the mock datasets
+  fetch('/datasets.json')
+    .then(res => res.json())
+    .then(data => {
+      allDatasets = data
+    })
+    .catch(err => console.error('Error fetching datasets:', err))
+
+  const renderResults = (query) => {
+    if (!query) {
+      searchResultsList.innerHTML = '<div class="text-sm text-gray-500 py-4">Type to start searching...</div>'
+      searchResultsCount.textContent = 'See more datasets →'
+      return
+    }
+
+    const lowerQuery = query.toLowerCase()
+    const filtered = allDatasets.filter(d => 
+      d.name.toLowerCase().includes(lowerQuery) || 
+      d.category.toLowerCase().includes(lowerQuery) || 
+      d.segment.toLowerCase().includes(lowerQuery)
+    )
+
+    if (filtered.length === 0) {
+      searchResultsList.innerHTML = '<div class="text-sm text-gray-500 py-4">No datasets found matching your search.</div>'
+      searchResultsCount.textContent = '0 datasets'
+      return
+    }
+
+    const remaining = filtered.length > 3 ? filtered.length - 3 : 0
+    searchResultsCount.textContent = remaining > 0 ? `See ${remaining} more datasets →` : ''
+
+    searchResultsList.innerHTML = filtered.slice(0, 3).map((d, i) => `
+      <div class="search-result-item flex gap-4 items-center cursor-pointer hover:bg-gray-50 px-3 py-3 rounded-lg transition-colors border border-transparent hover:border-gray-200" data-index="${i}">
+        <div class="w-11 h-11 rounded-lg bg-green-50 border border-green-200 flex items-center justify-center shrink-0">
+          <iconify-icon icon="${getCategoryIcon(d.category)}" width="22" style="color: #15803d;"></iconify-icon>
+        </div>
+        <div class="min-w-0 flex-1">
+          <div class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-0.5">${d.category}</div>
+          <h5 class="text-sm font-semibold text-gray-900 truncate">${d.name}</h5>
+          <div class="text-xs text-gray-500 mt-0.5 flex items-center gap-1">
+            <iconify-icon icon="solar:clock-circle-line-duotone" width="13" style="color: #9ca3af;"></iconify-icon>
+            Updated ${d.updated}
+          </div>
+        </div>
+        <iconify-icon icon="solar:arrow-right-line-duotone" width="18" style="color: #15803d; opacity: 0.5;"></iconify-icon>
+      </div>
+    `).join('')
+
+    // Attach click handlers to results
+    document.querySelectorAll('.search-result-item').forEach((el) => {
+      el.addEventListener('click', () => {
+        const idx = parseInt(el.getAttribute('data-index'))
+        const dataset = filtered[idx]
+        searchDropdown.classList.add('hidden')
+        showSignupModal(dataset)
+      })
+    })
+  }
+
+  // Handle Input Events
+  searchInput.addEventListener('input', (e) => {
+    const value = e.target.value
+    if (value.trim().length > 0) {
+      searchClear.classList.remove('hidden')
+      searchDropdown.classList.remove('hidden')
+    } else {
+      searchClear.classList.add('hidden')
+    }
+    renderResults(value)
+  })
+
+  // Handle Focus/Blur
+  searchInput.addEventListener('focus', () => {
+    if (searchInput.value.trim().length > 0 || allDatasets.length > 0) {
+      searchDropdown.classList.remove('hidden')
+      renderResults(searchInput.value)
+    }
+  })
+
+  document.addEventListener('click', (e) => {
+    if (!searchContainer.contains(e.target)) {
+      searchDropdown.classList.add('hidden')
+    }
+  })
+
+  // Handle Clear
+  searchClear.addEventListener('click', () => {
+    searchInput.value = ''
+    searchClear.classList.add('hidden')
+    renderResults('')
+    searchInput.focus()
+  })
+  
+  // Handle Popular Items
+  popularItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const span = item.querySelector('span')
+      const text = span ? span.textContent.trim() : item.textContent.trim()
+      searchInput.value = text
+      searchClear.classList.remove('hidden')
+      renderResults(text)
+    })
+  })
+}
+
