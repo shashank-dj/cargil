@@ -179,14 +179,31 @@ export function renderData() {
         <div class="section-label">Search</div>
         <h2 class="font-display text-3xl text-white tracking-wide mb-6">FIND DATASETS</h2>
       
-        <div class="relative max-w-xl">
-          <input 
-            id="datasetSearch"
-            type="text"
-            placeholder="Search by name, category, segment..."
-            class="w-full bg-forest-950 border border-forest-600 text-white px-4 py-3 pr-10 font-mono text-sm focus:outline-none focus:border-lime-400"
-          />
-          <span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"></span>
+        <div class="flex flex-col md:flex-row gap-4 max-w-2xl">
+          
+          <!-- Search Input -->
+          <div class="relative flex-1">
+            <input 
+              id="datasetSearch"
+              type="text"
+              placeholder="Search by name, category, segment..."
+              class="w-full bg-forest-950 border border-forest-600 text-white px-4 py-3 pr-10 font-mono text-sm focus:outline-none focus:border-lime-400"
+            />
+            <span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"></span>
+          </div>
+      
+          <!-- Dropdown Filter -->
+          <select 
+            id="datasetFilter"
+            class="bg-forest-950 border border-forest-600 text-white px-4 py-3 font-mono text-sm focus:outline-none focus:border-lime-400"
+          >
+            <option value="all">All Categories</option>
+            <option value="carbon">Carbon</option>
+            <option value="feed">Feed</option>
+            <option value="health">Health</option>
+            <option value="water">Water</option>
+          </select>
+      
         </div>
       </section>
       <!-- Dataset catalog -->
