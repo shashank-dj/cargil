@@ -45,8 +45,8 @@ export function renderHome() {
                 <a href="#/data" class="btn-outline clip-corner">
                   Explore Data
                 </a>
-                <a href="#/data" class="btn-outline clip-corner">
-                  Join Team
+                <a href="#/community" class="btn-outline clip-corner">
+                  Find a Team
                 </a>
               </div>
 
