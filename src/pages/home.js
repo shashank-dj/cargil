@@ -45,6 +45,9 @@ export function renderHome() {
                 <a href="#/data" class="btn-outline clip-corner">
                   Explore Data
                 </a>
+                <a href="#/data" class="btn-outline clip-corner">
+                  Join Team
+                </a>
               </div>
 
               <!-- Micro stats -->
