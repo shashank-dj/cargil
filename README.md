@@ -1,107 +1,50 @@
 # Cargill AgLab — Open Data Innovation Platform
 
-A multi-page website built with **Vite + Vanilla JS + Tailwind CSS**, deployable to Netlify.
+Unlike traditional case competitions or corporate CSR programs, Cargill AgLab is the only 
+platform where students work with live farm data, build real solutions, and enter a funded career 
+pipeline, not just win a prize  
 
-## 🚀 Quick Start
 
-```bash
-# 1. Install dependencies
-npm install
+# AI-Powered Challenge Engine 
+Instead of static open data dumps, offer an interactive AI sandbox where students can query 
+Cargill's sustainability datasets through natural language ("Show me which farms have the 
+highest CO₂-per-kg-of-pork ratio in Southeast Asia"). This transforms passive data into active 
+exploration — something no competitor does at scale. 
 
-# 2. Run dev server
-npm run dev
+# Real Farm Digital Twins 
+Partner with Cargill farms to expose live telemetry data (energy, water, feed conversion ratios) 
+as anonymized digital twins. Students don't just analyze historical data — they simulate the 
+impact of their proposals on a virtual farm before submitting. This is a massive differentiator vs. 
+typical "case competition" formats. 
 
-# 3. Build for production
-npm run build
+# Tiered Challenge System (Not Just One Prize) 
+Structure it like a career pipeline: 
+● Level 1 – Explorer: Analyze existing data, submit insights (everyone can participate) 
+● Level 2 – Innovator: Build a prototype solution or business model 
+● Level 3 – Builder: Funded 3-month co-development sprint inside Cargill 
+This keeps students engaged long-term, not just for one competition cycle. 
 
-# 4. Preview production build locally
-npm run preview
-```
+# Cross-University Team Matchmaking 
+Force interdisciplinary collaboration — match a data science student with an agronomy student 
+and a business student from different universities globally. Agriculture's problems need diverse 
+minds, and this mirrors how Cargill actually works. No competitor platform does this. 
 
-## 📁 Project Structure
+# Impact Leaderboard & Transparency Dashboard 
+Make Cargill's own sustainability progress publicly visible and gamified — show how student 
+proposals have influenced real Cargill decisions. This creates radical transparency that builds 
+trust with Gen Z (who are deeply skeptical of corporate greenwashing). 
 
-```
-cargill-aglab/
-├── index.html              # Single HTML entry point
-├── package.json            # Dependencies & scripts
-├── vite.config.js          # Vite config
-├── tailwind.config.js      # Tailwind theme (colors, fonts, animations)
-├── postcss.config.js       # PostCSS for Tailwind
-├── netlify.toml            # Netlify build + SPA redirect rules
-└── src/
-    ├── main.js             # App entry: mounts nav, footer, router
-    ├── router.js           # Hash-based SPA router + page scripts
-    ├── style.css           # Global styles, Tailwind directives, components
-    ├── components/
-    │   ├── nav.js          # Fixed nav with ticker tape
-    │   └── footer.js       # Footer with newsletter signup
-    └── pages/
-        ├── home.js         # Landing page
-        ├── challenges.js   # Challenge listings
-        ├── data.js         # Open data explorer
-        ├── leaderboard.js  # Team rankings
-        └── community.js    # Team matching, mentors, alumni
-```
+# Professor & Curriculum Integration 
+Instead of just targeting students directly, offer ready-made course modules professors can 
+plug into sustainability, agri-business, or data science courses. Cargill's data becomes 
+curriculum — this creates structural, recurring talent pipelines vs. one-off competitions. 
 
-## 🌐 Deploy to Netlify
+# Alumni Network & Startup Launchpad 
+Winners who don't join Cargill could receive seed funding or an AgTech incubator slot 
+sponsored by Cargill Ventures. This signals that Cargill isn't just extracting ideas — they're 
+investing in the next generation of agri-entrepreneurs. 
 
-### Option A — Netlify CLI
-```bash
-npm install -g netlify-cli
-netlify login
-netlify deploy --build --prod
-```
-
-### Option B — GitHub + Netlify Dashboard
-1. Push this repo to GitHub
-2. Go to [netlify.com](https://netlify.com) → New Site from Git
-3. Select your GitHub repo
-4. Build settings are auto-detected from `netlify.toml`:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-5. Click **Deploy**
-
-## 🎨 Design System
-
-| Token | Value | Usage |
-|-------|-------|-------|
-| `forest-900` | `#0A2218` | Primary background |
-| `forest-800` | `#112D1E` | Card backgrounds |
-| `lime-400` | `#4ADE80` | Primary accent, CTAs |
-| `gold-400` | `#F5C842` | Secondary accent |
-| `soil-400` | `#C4763A` | Tertiary/invite-only accent |
-| Font: Display | Bebas Neue | Headlines |
-| Font: Body | Lato | Body text |
-| Font: Mono | JetBrains Mono | Data, labels, tags |
-
-## 📄 Pages
-
-| Route | Page |
-|-------|------|
-| `/#/` | Home — hero, how it works, stats, challenge tiers |
-| `/#/challenges` | Active challenge listings with team matchmaking |
-| `/#/data` | Open data explorer with live API preview |
-| `/#/leaderboard` | Team rankings, impact scores, alumni outcomes |
-| `/#/community` | Student matching, mentor profiles, professor hub |
-
-## 🔧 Adding a New Page
-
-1. Create `src/pages/mypage.js` and export `renderMyPage()`
-2. Add the route in `src/router.js`:
-   ```js
-   import { renderMyPage } from './pages/mypage.js'
-   const routes = {
-     // ...existing routes
-     '/mypage': renderMyPage,
-   }
-   ```
-3. Add a nav link in `src/components/nav.js`
-
-## 📦 Dependencies
-
-- **vite** — Dev server + bundler
-- **tailwindcss** — Utility-first CSS
-- **autoprefixer** — CSS vendor prefixes
-- **postcss** — CSS processing pipeline
-
-No runtime JS dependencies. Zero frameworks. Pure vanilla JS with Tailwind.
+# "Shadow a Farmer" Integration 
+Pair top digital participants with real farmers for a week (virtually or in-person). This grounds 
+the platform in reality — students see the human side of agriculture, which is exactly the cultural 
+shift needed to attract talent to the sector. 
